@@ -752,6 +752,7 @@
 - [CreateDashboard](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateDashboard.md): POST /api/v1/config/dashboards
 - [UpdateDashboard](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateDashboard.md): PUT /api/v1/config/dashboards/{slug}
 - [DeleteDashboard](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteDashboard.md): DELETE /api/v1/config/dashboards/{slug}
+- [ImportDashboardFromClassic](https://docs.chronosphere.io/tooling/api-info/definition/operations/ImportDashboardFromClassic.md): POST /api/v1/config/dashboards:importFromClassic
 
 ### Dataset
 - [ListDatasets](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListDatasets.md): GET /api/v1/config/datasets
