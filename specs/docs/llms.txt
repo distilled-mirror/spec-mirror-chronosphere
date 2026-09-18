@@ -91,6 +91,7 @@
 
 ### Classic dashboards
 - [Classic dashboards](https://docs.chronosphere.io/observe/dashboards/classic-dashboards.md): Create and manage Grafana-based classic dashboards, and compare them with standard dashboards in Chronosphere Observability Platform.
+- [Migrate classic dashboards to standard dashboards](https://docs.chronosphere.io/observe/dashboards/classic-dashboards/migrate-to-standard.md): Convert Grafana or classic dashboard JSON into standard dashboards using the Chronosphere Config API.
 - [Import Grafana dashboards](https://docs.chronosphere.io/observe/dashboards/classic-dashboards/grafana-import.md): Import dashboards exported from Grafana 7.5 or earlier into Chronosphere Observability Platform as classic dashboards.
 - [Visualize dashboard contents with panels](https://docs.chronosphere.io/observe/dashboards/classic-dashboards/classic-panels.md): Add and configure chart panels on a classic dashboard to transform, filter, and visualize the results of a query.
 
