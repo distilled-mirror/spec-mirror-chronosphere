@@ -46,3 +46,12 @@ Use this link to download the raw Swagger specification:
 [Download](/openapi/api_v1_data_swagger.json)
 
 <ApiKeySnippet />
+
+
+## Related topics
+
+- [Prometheus API overview](/tooling/prometheus-api.md)
+- [Telemetry data budgets](/control/consumption/budgeting.md)
+- [HTTP API collector source plugin](/ingest/pipeline/plugins/source-plugins/http-collector.md)
+- [Get started with the Chronosphere API](/tooling/api-info.md)
+- [Visualize data using dashboards](/observe/dashboards.md)

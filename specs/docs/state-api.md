@@ -46,3 +46,12 @@ Use this link to download the raw Swagger specification:
 [Download](/openapi/api_v1_state_swagger.json)
 
 <ApiKeySnippet />
+
+
+## Related topics
+
+- [Install the Chronosphere Terraform provider](/tooling/infrastructure/terraform/install.md)
+- [ListCloudIntegrations](/tooling/api-info/definition/operations/ListCloudIntegrations.md)
+- [CreateCloudIntegration](/tooling/api-info/definition/operations/CreateCloudIntegration.md)
+- [Discover and scrape Kubernetes resources with Chronosphere Collector](/ingest/metrics-traces/collector/discover/monitor-kubernetes.md)
+- [UpdateCloudIntegration](/tooling/api-info/definition/operations/UpdateCloudIntegration.md)

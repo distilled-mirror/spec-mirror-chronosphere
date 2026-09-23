@@ -183,3 +183,12 @@ This example demonstrates the process to iterate over every monitor:
 
 4. When you get a response with an empty `page.next_token` field, you have reached
    the final page of results.
+
+
+## Related topics
+
+- [Prometheus API overview](/tooling/prometheus-api.md)
+- [Get started with Observability Platform](/overview/get-started.md)
+- [Ingest metrics and traces using the OpenTelemetry Collector](/ingest/metrics-traces/otel.md)
+- [Chronosphere MCP server](/integrate/mcp-server.md)
+- [Chronosphere Pulumi provider](/tooling/infrastructure/pulumi.md)

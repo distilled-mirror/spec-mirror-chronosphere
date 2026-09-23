@@ -326,6 +326,7 @@
 
 ### Integrate
 - [Integrate with Observability Platform](https://docs.chronosphere.io/integrate.md): Learn how to integrate third-party tools and services with Chronosphere Observability Platform.
+- [Navigate the Integrations Hub](https://docs.chronosphere.io/integrate/integrations-hub.md): Learn how to browse, configure, and monitor integrations from the Integrations Hub in Chronosphere Observability Platform.
 
 ### MCP server
 - [Chronosphere MCP server](https://docs.chronosphere.io/integrate/mcp-server.md): Learn how to connect large language models to the Chronosphere MCP server.
@@ -631,15 +632,24 @@
 - [Debug endpoints](https://docs.chronosphere.io/ingest/metrics-traces/collector/debugging.md): How to debug Chronosphere Collector issues by using available HTTP endpoints.
 
 ### Metrics and traces
-- [Ingest AWS CloudWatch metrics](https://docs.chronosphere.io/ingest/metrics-traces/aws-cloudwatch.md): Send AWS CloudWatch metrics to Observability Platform
+- [Troubleshoot ingestion](https://docs.chronosphere.io/ingest/metrics-traces/troubleshooting.md): Troubleshoot issues with Observability Platform receiving data from Chronosphere and OTel Collectors.
+
+### Integrate
+- [Integrations](https://docs.chronosphere.io/ingest/xcor/integrations.md): Ingest metrics from cloud providers and the Chronosphere CXDOT Collector into Observability Platform.
+
+### Server
+- [Server integrations](https://docs.chronosphere.io/ingest/xcor/integrations/server.md): Ingest metrics from cloud providers into Chronosphere Observability Platform without running a Collector.
+- [Ingest AWS CloudWatch metrics](https://docs.chronosphere.io/ingest/xcor/integrations/server/aws-cloudwatch.md): Send AWS CloudWatch metrics to Observability Platform
 
 ### Azure
-- [Azure metrics integration](https://docs.chronosphere.io/ingest/metrics-traces/azure.md): Learn how to ingest Azure metrics into Chronosphere Observability Platform.
-- [Azure metrics available in Chronosphere Observability Platform](https://docs.chronosphere.io/ingest/metrics-traces/azure/azure-metrics.md): Reference the Azure metrics that Chronosphere Observability Platform ingests.
+- [Azure metrics integration](https://docs.chronosphere.io/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Chronosphere Observability Platform.
+- [Azure metrics available in Chronosphere Observability Platform](https://docs.chronosphere.io/ingest/xcor/integrations/server/azure/azure-metrics.md): Reference the Azure metrics that Chronosphere Observability Platform ingests.
 
-### Metrics and traces
-- [Ingest Google Cloud metrics](https://docs.chronosphere.io/ingest/metrics-traces/gcp.md): Learn how to ingest Google Cloud metrics into Chronosphere Observability Platform.
-- [Troubleshoot ingestion](https://docs.chronosphere.io/ingest/metrics-traces/troubleshooting.md): Troubleshoot issues with Observability Platform receiving data from Chronosphere and OTel Collectors.
+### Server
+- [Ingest Google Cloud metrics](https://docs.chronosphere.io/ingest/xcor/integrations/server/gcp.md): Learn how to ingest Google Cloud metrics into Chronosphere Observability Platform.
+
+### Collector
+- [Collector integrations](https://docs.chronosphere.io/ingest/xcor/integrations/collector.md): Configure integrations in the CXDOT Collector and validate the metrics they produce.
 
 ### Change events
 - [Send third-party events to Chronosphere](https://docs.chronosphere.io/ingest/third-party.md): Learn how to send third-party events to Chronosphere to display as change events.

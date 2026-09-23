@@ -46,3 +46,12 @@ Use this link to download the raw Swagger specification:
 [Download](/openapi/api_v1_config_swagger.json)
 
 <ApiKeySnippet />
+
+
+## Related topics
+
+- [Manage service level objectives](/investigate/alerts/manage-slos.md)
+- [DeleteConsumptionConfig](/tooling/api-info/definition/operations/DeleteConsumptionConfig.md)
+- [ReadConsumptionConfig](/tooling/api-info/definition/operations/ReadConsumptionConfig.md)
+- [CreateConsumptionConfig](/tooling/api-info/definition/operations/CreateConsumptionConfig.md)
+- [UpdateConsumptionConfig](/tooling/api-info/definition/operations/UpdateConsumptionConfig.md)
