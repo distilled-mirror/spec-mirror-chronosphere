@@ -51,6 +51,7 @@
 - [Search for resources in Observability Platform](https://docs.chronosphere.io/navigate/search.md): Use global search to find dashboards, monitors, services, SLOs, teams, and collections by name, and open the Assistant when you want to describe what you're looking for.
 - [Use notebooks to gather related information](https://docs.chronosphere.io/navigate/notebooks.md): Use notebooks to gather graphs, charts, and other resources from multiple pages into one place while troubleshooting a problem.
 - [Filter across pages using pinned scopes](https://docs.chronosphere.io/navigate/pinned-scopes.md): Learn about Chronosphere Observability Platform cross-page filtering.
+- [Reuse label selections with Quick filters](https://docs.chronosphere.io/navigate/quick-filters.md)
 - [Select time ranges](https://docs.chronosphere.io/navigate/time-ranges.md): Use the time range selector to scope queries, charts, tables, and graphs across monitors, dashboards, service pages, and explorers.
 - [Use comments to provide context](https://docs.chronosphere.io/navigate/comments.md): Learn about how to use comments in Chronosphere Observability Platform to identify important data.
 - [Create favorites to find resources quickly](https://docs.chronosphere.io/navigate/favorites.md): Mark dashboards and monitors as favorites to reach them faster from your personal home page, filtered resource lists, and search results.
@@ -650,6 +651,29 @@
 
 ### Collector
 - [Collector integrations](https://docs.chronosphere.io/ingest/xcor/integrations/collector.md): Configure integrations in the CXDOT Collector and validate the metrics they produce.
+- [Apache](https://docs.chronosphere.io/ingest/xcor/integrations/collector/apache.md): Apache HTTP Server connection, request, traffic, and worker metrics.
+- [cert-manager](https://docs.chronosphere.io/ingest/xcor/integrations/collector/cert_manager.md): Certificate lifecycle and expiry metrics from cert-manager, scraped from its controller's Prometheus endpoint.
+- [ClickHouse](https://docs.chronosphere.io/ingest/xcor/integrations/collector/clickhouse.md): ClickHouse query, connection, merge, and replication metrics.
+- [Consul](https://docs.chronosphere.io/ingest/xcor/integrations/collector/consul.md): Consul cluster and catalog health metrics from Consul agents.
+- [Datadog](https://docs.chronosphere.io/ingest/xcor/integrations/collector/datadog.md): DogStatsD metrics, Datadog APM traces, and APM span metrics from apps instrumented with Datadog clients.
+- [Docker](https://docs.chronosphere.io/ingest/xcor/integrations/collector/docker.md): Per-container CPU, memory, block I/O, network, process and uptime metrics from a Docker daemon, plus the daemon's own container and image counts.
+- [Envoy](https://docs.chronosphere.io/ingest/xcor/integrations/collector/envoy.md): Envoy listener, cluster, and traffic metrics.
+- [HAProxy](https://docs.chronosphere.io/ingest/xcor/integrations/collector/haproxy.md): HAProxy connection, request, and session metrics.
+- [Host](https://docs.chronosphere.io/ingest/xcor/integrations/collector/host.md): Operating system metrics from the machine running the Collector, including CPU, memory, disk, file system, network, load, paging, process counts, and uptime.
+- [HTTP Check](https://docs.chronosphere.io/ingest/xcor/integrations/collector/http_check.md): Availability, response time, and certificate expiry metrics for the HTTP endpoints your services depend on.
+- [JMX](https://docs.chronosphere.io/ingest/xcor/integrations/collector/jmx.md): Runtime metrics from Java apps that expose Java Management Extensions.
+- [Kubernetes](https://docs.chronosphere.io/ingest/xcor/integrations/collector/kubernetes.md): Kubernetes workload, node, cluster state, and control-plane metrics, and Kubernetes logs.
+- [Memcached](https://docs.chronosphere.io/ingest/xcor/integrations/collector/memcached.md): Memcached cache, operation, and connection metrics.
+- [MySQL](https://docs.chronosphere.io/ingest/xcor/integrations/collector/mysql.md): MySQL server performance and health metrics, including buffer pool, connections, commands, query throughput, and index usage.
+- [NGINX](https://docs.chronosphere.io/ingest/xcor/integrations/collector/nginx.md): NGINX connection and request metrics scraped from the stub_status endpoint.
+- [OpenMetrics](https://docs.chronosphere.io/ingest/xcor/integrations/collector/openmetrics.md): Metrics scraped from OpenMetrics and Prometheus endpoints.
+- [OTLP](https://docs.chronosphere.io/ingest/xcor/integrations/collector/otlp.md): Logs, metrics, and traces ingested over the OpenTelemetry Protocol from instrumented apps.
+- [PostgreSQL](https://docs.chronosphere.io/ingest/xcor/integrations/collector/postgres.md): PostgreSQL connection and workload metrics.
+- [Apache Spark](https://docs.chronosphere.io/ingest/xcor/integrations/collector/spark.md): Apache Spark application metrics read from a driver's REST API, including executor memory and task throughput, garbage collection, shuffle volume, and persisted RDD storage.
+- [TCP Check](https://docs.chronosphere.io/ingest/xcor/integrations/collector/tcp_check.md): Connectivity checks for TCP endpoints — whether a connection to each configured host and port can be established, how long the connect takes, and failed attempts by cause.
+- [Temporal](https://docs.chronosphere.io/ingest/xcor/integrations/collector/temporal.md): Temporal request, workflow, task, and persistence metrics.
+- [Tomcat](https://docs.chronosphere.io/ingest/xcor/integrations/collector/tomcat.md): Apache Tomcat application and Java Virtual Machine runtime metrics collected over JMX.
+- [Windows](https://docs.chronosphere.io/ingest/xcor/integrations/collector/windows.md): Windows Event Log records, service-state metrics, and user-selected performance counters for Windows hosts, with per-channel, Service Control Manager, and per-counter-object target health.
 
 ### Change events
 - [Send third-party events to Chronosphere](https://docs.chronosphere.io/ingest/third-party.md): Learn how to send third-party events to Chronosphere to display as change events.
@@ -846,6 +870,13 @@
 - [UpdateMappingRule](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateMappingRule.md): PUT /api/v1/config/mapping-rules/{slug}
 - [DeleteMappingRule](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteMappingRule.md): DELETE /api/v1/config/mapping-rules/{slug}
 
+### MetricNameActiveSeriesLimit
+- [ListMetricNameActiveSeriesLimits](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListMetricNameActiveSeriesLimits.md): GET /api/v1/config/metric-name-active-series-limits
+- [ReadMetricNameActiveSeriesLimit](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadMetricNameActiveSeriesLimit.md): GET /api/v1/config/metric-name-active-series-limits/{slug}
+- [CreateMetricNameActiveSeriesLimit](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateMetricNameActiveSeriesLimit.md): POST /api/v1/config/metric-name-active-series-limits
+- [UpdateMetricNameActiveSeriesLimit](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateMetricNameActiveSeriesLimit.md): PUT /api/v1/config/metric-name-active-series-limits/{slug}
+- [DeleteMetricNameActiveSeriesLimit](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteMetricNameActiveSeriesLimit.md): DELETE /api/v1/config/metric-name-active-series-limits/{slug}
+
 ### Monitor
 - [ListMonitors](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListMonitors.md): GET /api/v1/config/monitors
 - [ReadMonitor](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadMonitor.md): GET /api/v1/config/monitors/{slug}
@@ -910,6 +941,13 @@
 - [ListServices](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListServices.md): GET /api/v1/config/services
 - [ReadService](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadService.md): GET /api/v1/config/services/{slug}
 
+### ServiceAttribute
+- [ListServiceAttributes](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListServiceAttributes.md): GET /api/v1/config/service-attributes
+- [ReadServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadServiceAttribute.md): GET /api/v1/config/services/{service_slug}/attributes
+- [CreateServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateServiceAttribute.md): POST /api/v1/config/services/{service_slug}/attributes
+- [UpdateServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateServiceAttribute.md): PUT /api/v1/config/services/{service_slug}/attributes
+- [DeleteServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteServiceAttribute.md): DELETE /api/v1/config/services/{service_slug}/attributes
+
 ### SLO
 - [ListSLOs](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListSLOs.md): GET /api/v1/config/slos
 - [ReadSLO](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadSLO.md): GET /api/v1/config/slos/{slug}
@@ -956,13 +994,6 @@
 - [CreateTraceTailSamplingRules](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateTraceTailSamplingRules.md): POST /api/v1/config/trace-tail-sampling-rules
 - [UpdateTraceTailSamplingRules](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateTraceTailSamplingRules.md): PUT /api/v1/config/trace-tail-sampling-rules
 - [DeleteTraceTailSamplingRules](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteTraceTailSamplingRules.md): DELETE /api/v1/config/trace-tail-sampling-rules
-
-### ServiceAttribute
-- [ListServiceAttributes](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListServiceAttributes.md): GET /api/v1/config/service-attributes
-- [ReadServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadServiceAttribute.md): GET /api/v1/config/services/{service_slug}/attributes
-- [CreateServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateServiceAttribute.md): POST /api/v1/config/services/{service_slug}/attributes
-- [UpdateServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateServiceAttribute.md): PUT /api/v1/config/services/{service_slug}/attributes
-- [DeleteServiceAttribute](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteServiceAttribute.md): DELETE /api/v1/config/services/{service_slug}/attributes
 
 ### Dashboard
 - [Dashboard Configuration Schema](https://docs.chronosphere.io/tooling/api-info/dashboard_schema.md): Reference the fields and types in the standard dashboard configuration schema to create or modify dashboards programmatically.

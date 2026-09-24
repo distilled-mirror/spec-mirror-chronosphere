@@ -52,6 +52,6 @@ Use this link to download the raw Swagger specification:
 
 - [Prometheus API overview](/tooling/prometheus-api.md)
 - [Telemetry data budgets](/control/consumption/budgeting.md)
-- [HTTP API collector source plugin](/ingest/pipeline/plugins/source-plugins/http-collector.md)
-- [Get started with the Chronosphere API](/tooling/api-info.md)
 - [Visualize data using dashboards](/observe/dashboards.md)
+- [HTTP API collector source plugin](/ingest/pipeline/plugins/source-plugins/http-collector.md)
+- [Parse your log data](/control/shaping/shape-logs/parse-logs.md)
