@@ -42,13 +42,13 @@
 ### Navigate
 - [Navigate the Observability Platform interface](https://docs.chronosphere.io/navigate.md): Learn how to navigate the Chronosphere Observability Platform to find the functions you need to gain insight into your platforms.
 
-### Assistant
-- [Ask the Assistant about your telemetry](https://docs.chronosphere.io/navigate/assistant.md): Learn how the Assistant answers questions, queries telemetry, and edits dashboards in Observability Platform.
-- [Assistant interface reference](https://docs.chronosphere.io/navigate/assistant/interface.md): Reference for the controls, message elements, and keyboard shortcuts in the Chronosphere Assistant.
-- [Assistant capabilities reference](https://docs.chronosphere.io/navigate/assistant/capabilities.md): Reference for the data the Chronosphere Assistant reads, the skills it uses, and the changes it can make.
+### Operator
+- [Ask Operator about your telemetry](https://docs.chronosphere.io/navigate/operator.md): Learn how Operator answers questions, queries telemetry, and edits dashboards in Observability Platform.
+- [Operator interface reference](https://docs.chronosphere.io/navigate/operator/interface.md): Reference for the controls, message elements, and keyboard shortcuts in Chronosphere Operator.
+- [Operator capabilities reference](https://docs.chronosphere.io/navigate/operator/capabilities.md): Reference for the data Chronosphere Operator reads, the skills it uses, and the changes it can make.
 
 ### Navigate
-- [Search for resources in Observability Platform](https://docs.chronosphere.io/navigate/search.md): Use global search to find dashboards, monitors, services, SLOs, teams, and collections by name, and open the Assistant when you want to describe what you're looking for.
+- [Search for resources in Observability Platform](https://docs.chronosphere.io/navigate/search.md): Use global search to find dashboards, monitors, services, SLOs, teams, and collections by name, and open Operator when you want to describe what you're looking for.
 - [Use notebooks to gather related information](https://docs.chronosphere.io/navigate/notebooks.md): Use notebooks to gather graphs, charts, and other resources from multiple pages into one place while troubleshooting a problem.
 - [Filter across pages using pinned scopes](https://docs.chronosphere.io/navigate/pinned-scopes.md): Learn about Chronosphere Observability Platform cross-page filtering.
 - [Reuse label selections with Quick filters](https://docs.chronosphere.io/navigate/quick-filters.md)
@@ -768,6 +768,13 @@
 - [UpdateCollection](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateCollection.md): PUT /api/v1/config/collections/{slug}
 - [DeleteCollection](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteCollection.md): DELETE /api/v1/config/collections/{slug}
 
+### CommandCenterGroup
+- [ListCommandCenterGroups](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListCommandCenterGroups.md): GET /api/v1/config/command-center-groups
+- [ReadCommandCenterGroup](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadCommandCenterGroup.md): GET /api/v1/config/command-center-groups/{slug}
+- [CreateCommandCenterGroup](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateCommandCenterGroup.md): POST /api/v1/config/command-center-groups
+- [UpdateCommandCenterGroup](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateCommandCenterGroup.md): PUT /api/v1/config/command-center-groups/{slug}
+- [DeleteCommandCenterGroup](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteCommandCenterGroup.md): DELETE /api/v1/config/command-center-groups/{slug}
+
 ### ConsumptionBudget
 - [ListConsumptionBudgets](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListConsumptionBudgets.md): GET /api/v1/config/consumption-budgets
 - [ReadConsumptionBudget](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadConsumptionBudget.md): GET /api/v1/config/consumption-budgets/{slug}
@@ -850,18 +857,18 @@
 - [UpdateLogControlConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateLogControlConfig.md): PUT /api/v1/config/log-control-config
 - [DeleteLogControlConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteLogControlConfig.md): DELETE /api/v1/config/log-control-config
 
+### LogIngestConfig
+- [ReadLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadLogIngestConfig.md): GET /api/v1/config/log-ingest-config
+- [CreateLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateLogIngestConfig.md): POST /api/v1/config/log-ingest-config
+- [UpdateLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateLogIngestConfig.md): PUT /api/v1/config/log-ingest-config
+- [DeleteLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteLogIngestConfig.md): DELETE /api/v1/config/log-ingest-config
+
 ### LogRetentionConfig
 - [ListLogRetentionConfigs](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListLogRetentionConfigs.md): GET /api/v1/config/log-retention-configs
 - [ReadLogRetentionConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadLogRetentionConfig.md): GET /api/v1/config/log-retention-configs/{slug}
 - [CreateLogRetentionConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateLogRetentionConfig.md): POST /api/v1/config/log-retention-configs
 - [UpdateLogRetentionConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateLogRetentionConfig.md): PUT /api/v1/config/log-retention-configs/{slug}
 - [DeleteLogRetentionConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteLogRetentionConfig.md): DELETE /api/v1/config/log-retention-configs/{slug}
-
-### LogIngestConfig
-- [ReadLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadLogIngestConfig.md): GET /api/v1/config/log-ingest-config
-- [CreateLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateLogIngestConfig.md): POST /api/v1/config/log-ingest-config
-- [UpdateLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateLogIngestConfig.md): PUT /api/v1/config/log-ingest-config
-- [DeleteLogIngestConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteLogIngestConfig.md): DELETE /api/v1/config/log-ingest-config
 
 ### MappingRule
 - [ListMappingRules](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListMappingRules.md): GET /api/v1/config/mapping-rules
@@ -931,15 +938,15 @@
 - [UpdateRollupRule](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateRollupRule.md): PUT /api/v1/config/rollup-rules/{slug}
 - [DeleteRollupRule](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteRollupRule.md): DELETE /api/v1/config/rollup-rules/{slug}
 
+### Service
+- [ListServices](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListServices.md): GET /api/v1/config/services
+- [ReadService](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadService.md): GET /api/v1/config/services/{slug}
+
 ### ServiceAccount
 - [ListServiceAccounts](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListServiceAccounts.md): GET /api/v1/config/service-accounts
 - [ReadServiceAccount](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadServiceAccount.md): GET /api/v1/config/service-accounts/{slug}
 - [CreateServiceAccount](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateServiceAccount.md): POST /api/v1/config/service-accounts
 - [DeleteServiceAccount](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteServiceAccount.md): DELETE /api/v1/config/service-accounts/{slug}
-
-### Service
-- [ListServices](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListServices.md): GET /api/v1/config/services
-- [ReadService](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadService.md): GET /api/v1/config/services/{slug}
 
 ### ServiceAttribute
 - [ListServiceAttributes](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListServiceAttributes.md): GET /api/v1/config/service-attributes
@@ -962,18 +969,18 @@
 - [UpdateTeam](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateTeam.md): PUT /api/v1/config/teams/{slug}
 - [DeleteTeam](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteTeam.md): DELETE /api/v1/config/teams/{slug}
 
-### TraceBehaviorConfig
-- [ReadTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadTraceBehaviorConfig.md): GET /api/v1/config/trace-behavior-config
-- [CreateTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateTraceBehaviorConfig.md): POST /api/v1/config/trace-behavior-config
-- [UpdateTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateTraceBehaviorConfig.md): PUT /api/v1/config/trace-behavior-config
-- [DeleteTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteTraceBehaviorConfig.md): DELETE /api/v1/config/trace-behavior-config
-
 ### TraceBehavior
 - [ListTraceBehaviors](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListTraceBehaviors.md): GET /api/v1/config/trace-behaviors
 - [ReadTraceBehavior](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadTraceBehavior.md): GET /api/v1/config/trace-behaviors/{slug}
 - [CreateTraceBehavior](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateTraceBehavior.md): POST /api/v1/config/trace-behaviors
 - [UpdateTraceBehavior](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateTraceBehavior.md): PUT /api/v1/config/trace-behaviors/{slug}
 - [DeleteTraceBehavior](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteTraceBehavior.md): DELETE /api/v1/config/trace-behaviors/{slug}
+
+### TraceBehaviorConfig
+- [ReadTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/ReadTraceBehaviorConfig.md): GET /api/v1/config/trace-behavior-config
+- [CreateTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/CreateTraceBehaviorConfig.md): POST /api/v1/config/trace-behavior-config
+- [UpdateTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/UpdateTraceBehaviorConfig.md): PUT /api/v1/config/trace-behavior-config
+- [DeleteTraceBehaviorConfig](https://docs.chronosphere.io/tooling/api-info/definition/operations/DeleteTraceBehaviorConfig.md): DELETE /api/v1/config/trace-behavior-config
 
 ### TraceJaegerRemoteSamplingStrategy
 - [ListTraceJaegerRemoteSamplingStrategies](https://docs.chronosphere.io/tooling/api-info/definition/operations/ListTraceJaegerRemoteSamplingStrategies.md): GET /api/v1/config/trace-jaeger-remote-sampling-strategies
