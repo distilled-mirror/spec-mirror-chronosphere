@@ -198,7 +198,7 @@
 
 ### Notifiers
 - [Notifiers](https://docs.chronosphere.io/investigate/alerts/notifications/notifiers.md): View and create notifiers with Chronosphere Observability Platform, Chronoctl, or Terraform.
-- [Create a discard notifier](https://docs.chronosphere.io/investigate/alerts/notifications/notifiers/discard.md): Create a discard notifier with Chronoctl or Terraform.
+- [Create a discard notifier](https://docs.chronosphere.io/investigate/alerts/notifications/notifiers/discard.md): Create and route to a discard notifier with Chronosphere Observability Platform, Chronoctl, or Terraform.
 - [Create an email notifier](https://docs.chronosphere.io/investigate/alerts/notifications/notifiers/email.md): Create an email notifier with Chronosphere Observability Platform, Chronoctl, or Terraform.
 - [Create an incident.io notifier](https://docs.chronosphere.io/investigate/alerts/notifications/notifiers/incident.md): Create an incident.io notifier with Chronosphere Observability Platform.
 - [Create an Opsgenie notifier](https://docs.chronosphere.io/investigate/alerts/notifications/notifiers/opsgenie.md): Create an Opsgenie notifier with Chronosphere Observability Platform, Chronoctl, or Terraform.
