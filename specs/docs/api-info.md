@@ -1,14 +1,15 @@
 > ## Documentation Index
-> Fetch the complete documentation index at: https://docs.chronosphere.io/llms.txt
+> Fetch the complete documentation index at: https://docs-xcor.paloaltonetworks.com/llms.txt
 > Use this file to discover all available pages before exploring further.
 
-# Get started with the Chronosphere API
+# Get started with the Cortex XCOR API
 
-> How to access and use the Chronosphere API for programmatic access to your observability data.
+> How to access and use the Cortex XCOR API for programmatic access to your observability data.
 
-The Chronosphere API is an HTTP/JSON REST API for Chronosphere Observability
-Platform, where the HTTP method and the URL path define endpoints. To access the
-Chronosphere API, you need an *API token*.
+The Cortex XCOR API is an HTTP/JSON REST API for Palo Alto Networks Cortex XCOR, where the
+HTTP method and
+the URL path define endpoints. To access the
+Cortex XCOR API, you need an *API token*.
 
 For information about using the Prometheus API, see
 [Prometheus API overview](/tooling/prometheus-api#prometheus-http-api).
@@ -18,23 +19,23 @@ For the structure of dashboard configurations, see the
 [dashboard configuration schema](/tooling/api-info/dashboard_schema).
 
 <Note>
-  Chronosphere supports only publicly documented API endpoints. Undocumented, private,
+  Cortex XCOR supports only publicly documented API endpoints. Undocumented, private,
   or experimental API endpoints might change without warning.
 </Note>
 
 ## Create an API token
 
-A service can access the Chronosphere API by authenticating with its API token.
-Many Chronosphere API requests require an unrestricted service account. For details,
+A service can access the Cortex XCOR API by authenticating with its API token.
+Many Cortex XCOR API requests require an unrestricted service account. For details,
 see [Service accounts](/administer/accounts-teams/service-accounts).
 
-A user with sufficient permissions can access the Chronosphere API by creating a
+A user with sufficient permissions can access the Cortex XCOR API by creating a
 temporary personal access token. For details, see
 [Personal access tokens](/administer/accounts-teams/personal-access-tokens).
 
 ## Send requests
 
-Because the Chronosphere API requires authentication, include an API token with your
+Because the Cortex XCOR API requires authentication, include an API token with your
 `curl` request, as shown in the following example. For more details, see
 [Create an API token](/tooling/api-info#create-an-api-token).
 
@@ -49,7 +50,7 @@ curl -H "API-Token: ${CHRONOSPHERE_API_TOKEN}" \
 Replace the following:
 
 * *`TOKEN`*: Your API token.
-* *`INSTANCE`*: The subdomain name for your organization's Observability Platform instance.
+* *`INSTANCE`*: The subdomain name for your organization's Cortex XCOR instance.
 * *`METHOD`*: The HTTP method to use with the request, such as `GET` or `POST`.
 * *`ENDPOINT_PATH`*: The specific endpoint you want to access.
 
@@ -188,7 +189,10 @@ This example demonstrates the process to iterate over every monitor:
 ## Related topics
 
 - [Prometheus API overview](/tooling/prometheus-api.md)
-- [Get started with Observability Platform](/overview/get-started.md)
+- [Get started with Cortex XCOR](/overview/get-started.md)
 - [Ingest metrics and traces using the OpenTelemetry Collector](/ingest/metrics-traces/otel.md)
-- [Chronosphere MCP server](/integrate/mcp-server.md)
-- [Chronosphere Pulumi provider](/tooling/infrastructure/pulumi.md)
+- [Chronoctl](/tooling/chronoctl.md)
+- [Cortex XCOR MCP server](/integrate/mcp-server.md)
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

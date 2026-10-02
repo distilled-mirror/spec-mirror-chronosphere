@@ -1,5 +1,5 @@
 > ## Documentation Index
-> Fetch the complete documentation index at: https://docs.chronosphere.io/llms.txt
+> Fetch the complete documentation index at: https://docs-xcor.paloaltonetworks.com/llms.txt
 > Use this file to discover all available pages before exploring further.
 
 # Config API
@@ -16,7 +16,7 @@ export const ApiKeySnippet = ({title = "API Key", description = "An API key is a
 
       <div className="px-6 py-4">
         <div className="bg-[#EBEEF5] dark:bg-gray-900 p-6 rounded border border-gray-300 dark:border-gray-700">
-          <h5 className="text-gray-900 dark:text-gray-100 text-sm font-normal mb-4 mt-0">Chronosphere API token</h5>
+          <h5 className="text-gray-900 dark:text-gray-100 text-sm font-normal mb-4 mt-0">Cortex XCOR API token</h5>
 
           <p className="text-gray-800 dark:text-gray-300 text-sm mb-3 leading-relaxed">
             {description}{" "}
@@ -40,7 +40,7 @@ export const ApiKeySnippet = ({title = "API Key", description = "An API key is a
 <Badge color="green" size="lg" icon="cog">v1</Badge>
 
 The Config API provides standard HTTP/JSON REST endpoints for creating, reading,
-updating, deleting, and listing configurable Chronosphere resources.
+updating, deleting, and listing configurable Palo Alto Networks Cortex XCOR resources.
 
 Use this link to download the raw Swagger specification:
 [Download](/openapi/api_v1_config_swagger.json)
@@ -55,3 +55,6 @@ Use this link to download the raw Swagger specification:
 - [ReadConsumptionConfig](/tooling/api-info/definition/operations/ReadConsumptionConfig.md)
 - [CreateConsumptionConfig](/tooling/api-info/definition/operations/CreateConsumptionConfig.md)
 - [UpdateConsumptionConfig](/tooling/api-info/definition/operations/UpdateConsumptionConfig.md)
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
