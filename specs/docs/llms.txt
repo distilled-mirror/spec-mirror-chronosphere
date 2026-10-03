@@ -392,6 +392,7 @@
 - [OpenMetrics](https://docs.chronosphere.io/ingest/xcor/integrations/collector/openmetrics.md): Metrics scraped from OpenMetrics and Prometheus endpoints.
 - [OTLP](https://docs.chronosphere.io/ingest/xcor/integrations/collector/otlp.md): Logs, metrics, and traces ingested over the OpenTelemetry Protocol from instrumented apps.
 - [PostgreSQL](https://docs.chronosphere.io/ingest/xcor/integrations/collector/postgres.md): PostgreSQL connection and workload metrics.
+- [SNMP](https://docs.chronosphere.io/ingest/xcor/integrations/collector/snmp.md): Availability and performance metrics from SNMP network devices.
 - [Apache Spark](https://docs.chronosphere.io/ingest/xcor/integrations/collector/spark.md): Apache Spark application metrics read from a driver's REST API, including executor memory and task throughput, garbage collection, shuffle volume, and persisted RDD storage.
 - [TCP Check](https://docs.chronosphere.io/ingest/xcor/integrations/collector/tcp_check.md): Connectivity checks for TCP endpoints — whether a connection to each configured host and port can be established, how long the connect takes, and failed attempts by cause.
 - [Temporal](https://docs.chronosphere.io/ingest/xcor/integrations/collector/temporal.md): Temporal request, workflow, task, and persistence metrics.
