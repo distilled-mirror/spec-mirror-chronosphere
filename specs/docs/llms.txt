@@ -1036,6 +1036,9 @@
 ### Endpoints
 - [Data API](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/index.md)
 
+### Alerts
+- [ListAlerts](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/operations/ListAlerts.md): POST /api/v1/data/alerts
+
 ### Events
 - [ListEvents](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/operations/ListEvents.md): GET /api/v1/data/events
 - [CreateEvent](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/operations/CreateEvent.md): POST /api/v1/data/events
