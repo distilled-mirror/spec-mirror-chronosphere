@@ -910,6 +910,12 @@
 - [UpdateMetricNameActiveSeriesLimit](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/UpdateMetricNameActiveSeriesLimit.md): PUT /api/v1/config/metric-name-active-series-limits/{slug}
 - [DeleteMetricNameActiveSeriesLimit](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/DeleteMetricNameActiveSeriesLimit.md): DELETE /api/v1/config/metric-name-active-series-limits/{slug}
 
+### MetricNameDefaultActiveSeriesLimit
+- [ReadMetricNameDefaultActiveSeriesLimit](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ReadMetricNameDefaultActiveSeriesLimit.md): GET /api/v1/config/metric-name-default-active-series-limit
+- [CreateMetricNameDefaultActiveSeriesLimit](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/CreateMetricNameDefaultActiveSeriesLimit.md): POST /api/v1/config/metric-name-default-active-series-limit
+- [UpdateMetricNameDefaultActiveSeriesLimit](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/UpdateMetricNameDefaultActiveSeriesLimit.md): PUT /api/v1/config/metric-name-default-active-series-limit
+- [DeleteMetricNameDefaultActiveSeriesLimit](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/DeleteMetricNameDefaultActiveSeriesLimit.md): DELETE /api/v1/config/metric-name-default-active-series-limit
+
 ### Monitor
 - [ListMonitors](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ListMonitors.md): GET /api/v1/config/monitors
 - [ReadMonitor](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ReadMonitor.md): GET /api/v1/config/monitors/{slug}
