@@ -617,14 +617,8 @@
 
 ### Administer
 - [Administer Palo Alto Networks Telemetry Pipeline](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/administer.md): Learn how to manage tools and features of Palo Alto Networks Telemetry Pipeline.
-
-### Team
-- [Team members in Palo Alto Networks Telemetry Pipeline](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/administer/team.md): Add and manage team members in Palo Alto Networks Telemetry Pipeline.
-- [Invite team members to your Palo Alto Networks Telemetry Pipeline project](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/administer/team/invite-members.md): Send invitations for new team members to join your project in Palo Alto Networks Telemetry Pipeline.
-- [Set up single sign-on](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/administer/team/sso.md): Set up SSO for Palo Alto Networks Telemetry Pipeline through your organization's identity provider.
-
-### Administer
-- [Manage project settings in Palo Alto Networks Telemetry Pipeline](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/administer/project-settings.md): Learn how to manage project settings for Palo Alto Networks Telemetry Pipeline.
+- [Invite team members to your Palo Alto Networks Telemetry Pipeline project](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/administer/team.md): Invite and manage team members in Palo Alto Networks Telemetry Pipeline.
+- [Set up single sign-on](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/administer/sso.md): Set up SSO for Palo Alto Networks Telemetry Pipeline through your organization's identity provider.
 
 ### Pipeline CLI
 - [Pipeline CLI](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/pipeline-cli.md): Learn about the Palo Alto Networks Telemetry Pipeline command-line tool.
