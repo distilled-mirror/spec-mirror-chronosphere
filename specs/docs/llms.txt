@@ -374,9 +374,11 @@
 ### Server integrations
 - [Ingest Google Cloud metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Learn how to ingest Google Cloud metrics into Palo Alto Networks Cortex XCOR.
 
-### Collector
+### CXDOT Collector integrations
 - [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Palo Alto Networks Cortex XCOR.
 - [Apache](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/apache.md): Apache HTTP Server connection, request, traffic, and worker metrics.
+- [Apache Spark](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/spark.md): Apache Spark application metrics read from a driver's REST API, including executor memory and task throughput, garbage collection, shuffle volume, and persisted RDD storage.
+- [Apache Tomcat](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tomcat.md): Apache Tomcat application and Java Virtual Machine runtime metrics collected over JMX.
 - [cert-manager](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/cert_manager.md): Certificate lifecycle and expiry metrics from cert-manager, scraped from its controller's Prometheus endpoint.
 - [ClickHouse](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/clickhouse.md): ClickHouse query, connection, merge, and replication metrics.
 - [Consul](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/consul.md): Consul cluster and catalog health metrics from Consul agents.
@@ -395,10 +397,8 @@
 - [OTLP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/otlp.md): Logs, metrics, and traces ingested over the OpenTelemetry Protocol from instrumented apps.
 - [PostgreSQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/postgres.md): PostgreSQL connection and workload metrics.
 - [SNMP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/snmp.md): Availability and performance metrics from SNMP network devices.
-- [Apache Spark](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/spark.md): Apache Spark application metrics read from a driver's REST API, including executor memory and task throughput, garbage collection, shuffle volume, and persisted RDD storage.
 - [TCP Check](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tcp_check.md): Connectivity checks for TCP endpoints — whether a connection to each configured host and port can be established, how long the connect takes, and failed attempts by cause.
 - [Temporal](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/temporal.md): Temporal request, workflow, task, and persistence metrics.
-- [Apache Tomcat](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tomcat.md): Apache Tomcat application and Java Virtual Machine runtime metrics collected over JMX.
 - [Windows](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/windows.md): Windows Event Log records, service-state metrics, and user-selected performance counters for Windows hosts, with per-channel, Service Control Manager, and per-counter-object target health.
 
 ### Ingest
