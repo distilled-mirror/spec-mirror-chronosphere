@@ -74,6 +74,7 @@
 - [Document dashboards with Markdown panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/markdown.md): Document dashboards with Markdown panels for Palo Alto Networks Cortex XCOR dashboards.
 - [Visualize proportional data with pie charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/pie-chart.md): Create and customize pie chart data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
 - [Visualize service topology with panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/service-topology.md): View and customize service topology panels for Palo Alto Networks Cortex XCOR dashboards.
+- [Compare SLO availability across periods with Single SLO panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/single-slo.md): Create and customize Single SLO panels that compare one service level objective's availability across multiple time periods on Palo Alto Networks Cortex XCOR dashboards.
 - [Visualize large statistic numbers with stat charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/stat-chart.md): Create and customize stat chart data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
 - [Visualize the status history](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/status-history.md): Create and customize status history data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
 - [Display data in a table](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/table.md): Create and customize tables of data from query results for Palo Alto Networks Cortex XCOR dashboards.
@@ -377,19 +378,25 @@
 ### CXDOT Collector integrations
 - [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Palo Alto Networks Cortex XCOR.
 - [Apache](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/apache.md): Apache HTTP Server connection, request, traffic, and worker metrics.
+- [Kafka](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/kafka.md): Apache Kafka broker and Java Virtual Machine runtime metrics collected over JMX.
+- [Apache Mesos](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mesos.md): Apache Mesos cluster metrics read from the masters' and agents' HTTP APIs, including cluster-wide task, agent, and resource counts, per-framework and per-role allocations, and each agent's tasks, executors, and resources, plus Apache Aurora scheduler metrics, including task counts by state, resource…
 - [Apache Spark](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/spark.md): Apache Spark application metrics read from a driver's REST API, including executor memory and task throughput, garbage collection, shuffle volume, and persisted RDD storage.
 - [Apache Tomcat](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tomcat.md): Apache Tomcat application and Java Virtual Machine runtime metrics collected over JMX.
 - [cert-manager](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/cert_manager.md): Certificate lifecycle and expiry metrics from cert-manager, scraped from its controller's Prometheus endpoint.
 - [ClickHouse](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/clickhouse.md): ClickHouse query, connection, merge, and replication metrics.
 - [Consul](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/consul.md): Consul cluster and catalog health metrics from Consul agents.
+- [containerd](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/containerd.md): Per-container CPU, memory, block I/O, process and uptime metrics from a containerd daemon, plus the size of every image in its store.
 - [Datadog](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/datadog.md): DogStatsD metrics, Datadog APM traces, and APM span metrics from apps instrumented with Datadog clients.
 - [Docker](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/docker.md): Per-container CPU, memory, block I/O, network, process and uptime metrics from a Docker daemon, plus the daemon's own container and image counts.
+- [Elasticsearch](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/elasticsearch.md): Collect cluster, node, index, operating system, process, and JVM metrics from Elasticsearch.
 - [Envoy](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/envoy.md): Envoy listener, cluster, and traffic metrics.
 - [HAProxy](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/haproxy.md): HAProxy connection, request, and session metrics.
 - [Host](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/host.md): Operating system metrics from the machine running the Collector, including CPU, memory, disk, file system, network, load, paging, process counts, and uptime.
 - [HTTP Check](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/http_check.md): Availability, response time, and certificate expiry metrics for the HTTP endpoints your services depend on.
 - [JMX](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/jmx.md): Runtime metrics from Java apps that expose Java Management Extensions.
 - [Kubernetes](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/kubernetes.md): Kubernetes workload, node, cluster state, and control-plane metrics, and Kubernetes logs.
+- [Linux](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/linux.md): Journal records and unit-state metrics from systemd on Linux hosts, optional forwarded syslog records, and target health for the journal, system bus, and listener.
+- [MarkLogic](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/marklogic.md): MarkLogic cluster, database, forest, host, server, request, transaction, storage, and health metrics.
 - [Memcached](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/memcached.md): Memcached cache, operation, and connection metrics.
 - [MySQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mysql.md): MySQL server performance and health metrics, including buffer pool, connections, commands, query throughput, and index usage.
 - [NGINX](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/nginx.md): NGINX connection and request metrics scraped from the stub_status endpoint.
@@ -399,7 +406,10 @@
 - [SNMP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/snmp.md): Availability and performance metrics from SNMP network devices.
 - [TCP Check](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tcp_check.md): Connectivity checks for TCP endpoints — whether a connection to each configured host and port can be established, how long the connect takes, and failed attempts by cause.
 - [Temporal](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/temporal.md): Temporal request, workflow, task, and persistence metrics.
+- [HashiCorp Vault](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/vault.md): Collects cluster health, request performance, token, and storage backend metrics from HashiCorp Vault.
+- [VMware vSphere](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/vsphere.md): Performance counters, inventory and events of vCenter Servers and standalone ESXi hosts — every host and virtual machine's CPU, memory, disk and network counters, guest and host properties, and vCenter events as logs.
 - [Windows](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/windows.md): Windows Event Log records, service-state metrics, and user-selected performance counters for Windows hosts, with per-channel, Service Control Manager, and per-counter-object target health.
+- [ZooKeeper](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/zookeeper.md): ZooKeeper connection, request, latency, and data tree metrics.
 
 ### Ingest
 - [OpenTelemetry support in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/otel-ingestion.md): Learn how Palo Alto Networks Cortex XCOR supports OpenTelemetry ingestion for telemetry data.
