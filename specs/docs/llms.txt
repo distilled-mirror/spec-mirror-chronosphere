@@ -330,7 +330,7 @@
 
 ### Integrate
 - [Integrate with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/integrate.md): Learn how to integrate third-party tools and services with Palo Alto Networks Cortex XCOR.
-- [Navigate the Integrations Hub](https://docs-xcor.paloaltonetworks.com/integrate/integrations-hub.md): Learn how to browse, configure, and monitor integrations from the Integrations Hub in Chronosphere Observability Platform.
+- [Navigate the Integrations Hub](https://docs-xcor.paloaltonetworks.com/integrate/integrations-hub.md): Learn how to browse, configure, and monitor integrations from the Integrations Hub in Palo Alto Networks Cortex XCOR.
 
 ### MCP server
 - [Cortex XCOR MCP server](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server.md): Learn how to connect large language models to the Cortex XCOR MCP server.
@@ -1050,6 +1050,7 @@
 - [ListAlerts](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/operations/ListAlerts.md): POST /api/v1/data/alerts
 
 ### Events
+- [ListEventFieldValues](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/operations/ListEventFieldValues.md): GET /api/v1/data/events:field-values
 - [ListEvents](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/operations/ListEvents.md): GET /api/v1/data/events
 - [CreateEvent](https://docs-xcor.paloaltonetworks.com/tooling/api-info/data_definition/operations/CreateEvent.md): POST /api/v1/data/events
 
@@ -1078,6 +1079,9 @@
 
 ### MetricUsagesByMetricName
 - [ListMetricUsagesByMetricName](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/ListMetricUsagesByMetricName.md): GET /api/v1/state/metric-usages-by-metric-name
+
+### MonitorStatuses
+- [ListMonitorStatuses](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/ListMonitorStatuses.md): POST /api/v1/state/monitor-statuses
 
 ### RuleEvaluations
 - [ListRuleEvaluations](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/ListRuleEvaluations.md): GET /api/v1/state/rule-evaluations
