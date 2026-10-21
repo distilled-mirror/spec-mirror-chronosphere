@@ -18,10 +18,10 @@ For API endpoint definitions, see the [API reference documentation](/tooling/api
 For the structure of dashboard configurations, see the
 [dashboard configuration schema](/tooling/api-info/dashboard_schema).
 
-<Note>
-  Cortex XCOR supports only publicly documented API endpoints. Undocumented, private,
-  or experimental API endpoints might change without warning.
-</Note>
+> [!NOTE]
+>
+> Cortex XCOR supports only publicly documented API endpoints. Undocumented, private,
+> or experimental API endpoints might change without warning.
 
 ## Create an API token
 
@@ -54,9 +54,9 @@ Replace the following:
 * *`METHOD`*: The HTTP method to use with the request, such as `GET` or `POST`.
 * *`ENDPOINT_PATH`*: The specific endpoint you want to access.
 
-<Note>
-  [Chronoctl](/tooling/chronoctl) also uses the environment variable `CHRONOSPHERE_API_TOKEN`.
-</Note>
+> [!NOTE]
+>
+> [Chronoctl](/tooling/chronoctl) also uses the environment variable `CHRONOSPHERE_API_TOKEN`.
 
 For example, to list all collections:
 

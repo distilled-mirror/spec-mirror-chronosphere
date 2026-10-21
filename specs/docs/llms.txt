@@ -352,8 +352,9 @@
 - [Install the CXDOT Collector on Windows](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/install/windows.md): Install the CXDOT Collector in a supported Windows environment.
 
 ### Configure
-- [Enable telemetry egress](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/telemetry-egress.md): Control which telemetry types the CXDOT Collector sends to Cortex XCOR.
 - [Configure integrations for the CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/integrations.md): Configure CXDOT Collector integrations to collect telemetry from tools and services.
+- [Build custom pipelines for the CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/custom-pipelines.md): Build custom pipelines to process and route telemetry data from the CXDOT Collector.
+- [Enable telemetry egress for the CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/telemetry-egress.md): Control which telemetry types the CXDOT Collector sends to Cortex XCOR.
 
 ### Discover
 - [Discover Kubernetes scrape targets with the CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/discover/kubernetes.md): Configure the CXDOT Collector to discover Kubernetes metric scrape targets.
@@ -379,6 +380,7 @@
 - [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Palo Alto Networks Cortex XCOR.
 - [Apache](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/apache.md): Apache HTTP Server connection, request, traffic, and worker metrics.
 - [Kafka](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/kafka.md): Apache Kafka broker and Java Virtual Machine runtime metrics collected over JMX.
+- [Kafka Consumer](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/kafka_consumer.md): Apache Kafka consumer group offsets and lag, partition offsets and replicas, and cluster broker counts collected from the Kafka admin API.
 - [Apache Mesos](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mesos.md): Apache Mesos cluster metrics read from the masters' and agents' HTTP APIs, including cluster-wide task, agent, and resource counts, per-framework and per-role allocations, and each agent's tasks, executors, and resources, plus Apache Aurora scheduler metrics, including task counts by state, resource…
 - [Apache Spark](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/spark.md): Apache Spark application metrics read from a driver's REST API, including executor memory and task throughput, garbage collection, shuffle volume, and persisted RDD storage.
 - [Apache Tomcat](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tomcat.md): Apache Tomcat application and Java Virtual Machine runtime metrics collected over JMX.
@@ -399,6 +401,7 @@
 - [MarkLogic](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/marklogic.md): MarkLogic cluster, database, forest, host, server, request, transaction, storage, and health metrics.
 - [Memcached](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/memcached.md): Memcached cache, operation, and connection metrics.
 - [MySQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mysql.md): MySQL server performance and health metrics, including buffer pool, connections, commands, query throughput, and index usage.
+- [Neo4j](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/neo4j.md): Neo4j transaction, query, page cache, checkpoint, Bolt connection, and JVM metrics, scraped from the server's Prometheus endpoint.
 - [NGINX](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/nginx.md): NGINX connection and request metrics scraped from the stub_status endpoint.
 - [OpenMetrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/openmetrics.md): Metrics scraped from OpenMetrics and Prometheus endpoints.
 - [OTLP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/otlp.md): Logs, metrics, and traces ingested over the OpenTelemetry Protocol from instrumented apps.
