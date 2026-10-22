@@ -30,9 +30,9 @@ Example:
 
 - [Install the Cortex XCOR Terraform provider](/tooling/infrastructure/terraform/install.md)
 - [ListCloudIntegrations](/tooling/api-info/definition/operations/ListCloudIntegrations.md)
+- [SendTestNotification](/tooling/api-info/state_definition/operations/SendTestNotification.md)
 - [CreateCloudIntegration](/tooling/api-info/definition/operations/CreateCloudIntegration.md)
 - [Discover and scrape Kubernetes resources with Chronosphere Collector](/ingest/metrics-traces/collector/discover/monitor-kubernetes.md)
-- [UpdateCloudIntegration](/tooling/api-info/definition/operations/UpdateCloudIntegration.md)
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

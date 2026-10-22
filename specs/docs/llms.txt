@@ -50,7 +50,6 @@
 ### Navigate
 - [Search for resources in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/navigate/search.md): Use global search to find dashboards, monitors, services, SLOs, teams, and collections by name, and open Operator when you want to describe what you're looking for.
 - [Use notebooks to gather related information](https://docs-xcor.paloaltonetworks.com/navigate/notebooks.md): Use notebooks to gather graphs, charts, and other resources from multiple pages into one place while troubleshooting a problem.
-- [Filter across pages using pinned scopes](https://docs-xcor.paloaltonetworks.com/navigate/pinned-scopes.md): Learn about Palo Alto Networks Cortex XCOR cross-page filtering.
 - [Reuse label selections with Quick filters](https://docs-xcor.paloaltonetworks.com/navigate/quick-filters.md)
 - [Select time ranges](https://docs-xcor.paloaltonetworks.com/navigate/time-ranges.md): Use the time range selector to scope queries, charts, tables, and graphs across monitors, dashboards, service pages, and explorers.
 - [Use comments to provide context](https://docs-xcor.paloaltonetworks.com/navigate/comments.md): Learn about how to use comments in Palo Alto Networks Cortex XCOR to identify important data.
@@ -301,7 +300,6 @@
 
 ### Administer
 - [Audit logs](https://docs-xcor.paloaltonetworks.com/administer/audit-logs.md): View recent system and user actions in the Audit Log, including event details and the accounts and apps that generated them.
-- [Configure pinned scopes](https://docs-xcor.paloaltonetworks.com/administer/pinned-scopes.md): Learn how to configure pinned scopes in Cortex XCOR.
 - [Design service level objectives](https://docs-xcor.paloaltonetworks.com/administer/design-slos.md): Learn about fundamental concepts and best practices when designing service level objectives (SLOs) in Palo Alto Networks Cortex XCOR.
 - [Configure Command Center groups](https://docs-xcor.paloaltonetworks.com/administer/command-center-groups.md): Create and manage the Command Center groups that define the business units shown in the Command Center.
 
@@ -1088,6 +1086,10 @@
 
 ### RuleEvaluations
 - [ListRuleEvaluations](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/ListRuleEvaluations.md): GET /api/v1/state/rule-evaluations
+
+### TestNotifications
+- [ListTestNotificationRecipients](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/ListTestNotificationRecipients.md): POST /api/v1/state/monitors/{monitor_slug}:list-test-notification-recipients
+- [SendTestNotification](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/SendTestNotification.md): POST /api/v1/state/monitors/{monitor_slug}:send-test-notification
 
 ## XCOR Academy
 - [Academy](https://docs-xcor.paloaltonetworks.com/academy.md): Self-paced training on Cortex XCOR and Palo Alto Networks Telemetry Pipeline, with links to related product documentation.
