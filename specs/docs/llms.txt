@@ -219,6 +219,13 @@
 - [Manage service level objectives](https://docs-xcor.paloaltonetworks.com/investigate/alerts/manage-slos.md): Learn about creating, editing, and deleting service level objectives (SLOs) in Palo Alto Networks Cortex XCOR.
 - [Troubleshoot monitors and alerts](https://docs-xcor.paloaltonetworks.com/investigate/alerts/troubleshooting.md): Learn about troubleshooting monitors and alerts in Palo Alto Networks Cortex XCOR.
 
+### AI investigations
+- [Investigate alerts with AI investigations](https://docs-xcor.paloaltonetworks.com/investigate/investigations.md): Learn how AI investigations correlate telemetry, test hypotheses, and produce an evidence-backed report for an alert or dashboard panel.
+- [Start an investigation](https://docs-xcor.paloaltonetworks.com/investigate/investigations/start.md): Manually start an AI investigation and steer it with follow-up questions.
+- [Read an investigation](https://docs-xcor.paloaltonetworks.com/investigate/investigations/reports.md): Understand the context, reasoning, and findings sections of an AI investigation, and verify its claims against your telemetry.
+- [Investigate alerts automatically](https://docs-xcor.paloaltonetworks.com/investigate/investigations/automatic-investigations.md): Understand how automatic investigations start when alerts trigger, and which alerts to select for them.
+- [Improve investigation quality](https://docs-xcor.paloaltonetworks.com/investigate/investigations/feedback.md): Rate investigation findings and give the agent the context it needs to produce better investigations over time.
+
 ### System library
 - [System Library](https://docs-xcor.paloaltonetworks.com/investigate/system-library.md): Reference telemetry data across Cortex XCOR in the System Library
 - [Attributes Catalog](https://docs-xcor.paloaltonetworks.com/investigate/system-library/attributes-catalog.md): Browse raw attributes and manage derived attributes in Cortex XCOR.
@@ -372,6 +379,7 @@
 - [Azure metrics available in Palo Alto Networks Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure/azure-metrics.md): Reference the Azure metrics that Palo Alto Networks Cortex XCOR ingests.
 
 ### Server integrations
+- [Cloudflare](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/cloudflare.md): Cloudflare zone analytics from the GraphQL Analytics API: HTTP request, bandwidth, threat, security event, and DNS query metrics per zone.
 - [Ingest Google Cloud metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Learn how to ingest Google Cloud metrics into Palo Alto Networks Cortex XCOR.
 
 ### CXDOT Collector integrations
@@ -402,6 +410,7 @@
 - [Neo4j](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/neo4j.md): Neo4j transaction, query, page cache, checkpoint, Bolt connection, and JVM metrics, scraped from the server's Prometheus endpoint.
 - [NGINX](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/nginx.md): NGINX connection and request metrics scraped from the stub_status endpoint.
 - [OpenMetrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/openmetrics.md): Metrics scraped from OpenMetrics and Prometheus endpoints.
+- [Oracle Database](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/oracle.md): Oracle Database health and workload metrics, including sessions, wait and response time, cache hit ratios, I/O, and tablespace usage per pluggable database.
 - [OTLP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/otlp.md): Logs, metrics, and traces ingested over the OpenTelemetry Protocol from instrumented apps.
 - [PostgreSQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/postgres.md): PostgreSQL connection and workload metrics.
 - [SNMP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/snmp.md): Availability and performance metrics from SNMP network devices.
@@ -935,6 +944,13 @@
 - [UpdateMutingRule](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/UpdateMutingRule.md): PUT /api/v1/config/muting-rules/{slug}
 - [DeleteMutingRule](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/DeleteMutingRule.md): DELETE /api/v1/config/muting-rules/{slug}
 
+### Notebook
+- [ListNotebooks](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ListNotebooks.md): GET /api/v1/config/notebooks
+- [ReadNotebook](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ReadNotebook.md): GET /api/v1/config/notebooks/{slug}
+- [CreateNotebook](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/CreateNotebook.md): POST /api/v1/config/notebooks
+- [UpdateNotebook](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/UpdateNotebook.md): PUT /api/v1/config/notebooks/{slug}
+- [DeleteNotebook](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/DeleteNotebook.md): DELETE /api/v1/config/notebooks/{slug}
+
 ### NotificationPolicy
 - [ListNotificationPolicies](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ListNotificationPolicies.md): GET /api/v1/config/notification-policies
 - [ReadNotificationPolicy](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ReadNotificationPolicy.md): GET /api/v1/config/notification-policies/{slug}
@@ -1086,10 +1102,6 @@
 
 ### RuleEvaluations
 - [ListRuleEvaluations](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/ListRuleEvaluations.md): GET /api/v1/state/rule-evaluations
-
-### TestNotifications
-- [ListTestNotificationRecipients](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/ListTestNotificationRecipients.md): POST /api/v1/state/monitors/{monitor_slug}:list-test-notification-recipients
-- [SendTestNotification](https://docs-xcor.paloaltonetworks.com/tooling/api-info/state_definition/operations/SendTestNotification.md): POST /api/v1/state/monitors/{monitor_slug}:send-test-notification
 
 ## XCOR Academy
 - [Academy](https://docs-xcor.paloaltonetworks.com/academy.md): Self-paced training on Cortex XCOR and Palo Alto Networks Telemetry Pipeline, with links to related product documentation.

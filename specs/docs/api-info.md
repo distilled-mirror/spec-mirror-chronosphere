@@ -12,11 +12,11 @@ the URL path define endpoints. To access the
 Cortex XCOR API, you need an *API token*.
 
 For information about using the Prometheus API, see
-[Prometheus API overview](/tooling/prometheus-api#prometheus-http-api).
+[Prometheus API overview](/tooling/prometheus-api.md#prometheus-http-api).
 
-For API endpoint definitions, see the [API reference documentation](/tooling/api-info/definition).
+For API endpoint definitions, see the [API reference documentation](/tooling/api-info/definition.md).
 For the structure of dashboard configurations, see the
-[dashboard configuration schema](/tooling/api-info/dashboard_schema).
+[dashboard configuration schema](/tooling/api-info/dashboard_schema.md).
 
 > [!NOTE]
 >
@@ -27,17 +27,17 @@ For the structure of dashboard configurations, see the
 
 A service can access the Cortex XCOR API by authenticating with its API token.
 Many Cortex XCOR API requests require an unrestricted service account. For details,
-see [Service accounts](/administer/accounts-teams/service-accounts).
+see [Service accounts](/administer/accounts-teams/service-accounts.md).
 
 A user with sufficient permissions can access the Cortex XCOR API by creating a
 temporary personal access token. For details, see
-[Personal access tokens](/administer/accounts-teams/personal-access-tokens).
+[Personal access tokens](/administer/accounts-teams/personal-access-tokens.md).
 
 ## Send requests
 
 Because the Cortex XCOR API requires authentication, include an API token with your
 `curl` request, as shown in the following example. For more details, see
-[Create an API token](/tooling/api-info#create-an-api-token).
+[Create an API token](/tooling/api-info.md#create-an-api-token).
 
 ```shell /"TOKEN"/ /INSTANCE/ /METHOD/ /ENDPOINT_PATH/ theme={null}
 export CHRONOSPHERE_API_TOKEN="TOKEN"
