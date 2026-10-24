@@ -37,6 +37,7 @@
 ### Guides
 - [Cortex XCOR guides](https://docs-xcor.paloaltonetworks.com/overview/guides.md): Learn about common workflows in Palo Alto Networks Cortex XCOR.
 - [Respond to incidents](https://docs-xcor.paloaltonetworks.com/overview/guides/incident-response.md): A workflow guide for on-call engineers who receive, triage, investigate, and resolve alerts in Palo Alto Networks Cortex XCOR.
+- [Create dashboards for service health](https://docs-xcor.paloaltonetworks.com/overview/guides/create-dashboards.md): Build a reusable Cortex XCOR standard dashboard with variables, PromQL panels, annotations, and change events.
 - [Manage telemetry data budgets](https://docs-xcor.paloaltonetworks.com/overview/guides/manage-budgets.md): A workflow guide for administrators who partition telemetry data, analyze consumption, and set budget thresholds in Palo Alto Networks Cortex XCOR.
 
 ### Navigate
@@ -372,7 +373,10 @@
 
 ### Server integrations
 - [Server integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server.md): Ingest metrics directly from cloud providers into Palo Alto Networks Cortex XCOR.
-- [Ingest AWS CloudWatch metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws-cloudwatch.md): Send AWS CloudWatch metrics to Cortex XCOR
+
+### AWS
+- [Amazon Web Services](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws.md): Send AWS metrics to Palo Alto Networks Cortex XCOR.
+- [Ingest AWS CloudWatch metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/metrics.md): Learn how to send AWS CloudWatch metrics to Palo Alto Networks Cortex XCOR.
 
 ### Azure
 - [Azure metrics integration](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Palo Alto Networks Cortex XCOR.
@@ -380,7 +384,10 @@
 
 ### Server integrations
 - [Cloudflare](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/cloudflare.md): Cloudflare zone analytics from the GraphQL Analytics API: HTTP request, bandwidth, threat, security event, and DNS query metrics per zone.
-- [Ingest Google Cloud metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Learn how to ingest Google Cloud metrics into Palo Alto Networks Cortex XCOR.
+
+### Google Cloud
+- [Google Cloud](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Send Google Cloud metrics to Palo Alto Networks Cortex XCOR.
+- [Ingest Google Cloud metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/metrics.md): Learn how to ingest Google Cloud metrics into Palo Alto Networks Cortex XCOR.
 
 ### CXDOT Collector integrations
 - [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Palo Alto Networks Cortex XCOR.
@@ -1126,7 +1133,7 @@
 - [Introduction to Consumption Pricing](https://docs-xcor.paloaltonetworks.com/academy/courses/introduction-to-consumption-pricing.md): Est. ~15–20 minutes. This course is a great first step in understanding Consumption Pricing in Cortex XCOR at a high level. Learn about resource pricing, the purpose of partitions and budgets, and the pages in the UI that will give you overall visibility into your organization's usage.
 - [Introduction to Observability Platform](https://docs-xcor.paloaltonetworks.com/academy/courses/introduction-to-observability-platform.md): Est. ~20–40 minutes. If you're onboarding onto our Observability Platform, this is a great place to start to learn how to navigate. Through a virtual lab, you'll take an interactive tour through a playground tenant that you'll revisit in future courses.
 - [Alert Response & Troubleshooting](https://docs-xcor.paloaltonetworks.com/academy/courses/alert-response-and-troubleshooting.md): Est. ~20–40 minutes. This course covers the essentials for on-call engineers onboarding onto the Observability Platform. You'll explore common troubleshooting strategies for monitor configuration, and break down tools in Cortex XCOR for optimizing incident response, such as Differential Diagnosis. F…
-- [Applying Budgets to Partitions](https://docs-xcor.paloaltonetworks.com/academy/courses/applying-budgets-to-partitions.md): Est. ~15–20 minutes. Learn how to configure budgets to monitor and control usage with our Consumption Pricing system. This quick course dives into how threshold components work together, how to configure multi-threshold budgets, and how to interpret partition visualizations compared to their budgets…
+- [Applying Budgets to Partitions](https://docs-xcor.paloaltonetworks.com/academy/courses/applying-budgets-to-partitions.md): Est. 15 to 20 minutes. Configure budgets and interpret partition consumption against thresholds.
 - [Building Dynamic Dashboards](https://docs-xcor.paloaltonetworks.com/academy/courses/building-dynamic-dashboards.md): Est. ~20–40 minutes. In this course, you will learn how to transform chaotic data into high-value insights. The course covers strategy for avoiding common dashboard pitfalls, as well as the technical tools that Cortex XCOR provides to build clear, dynamic, and actionable dashboards.
 - [Configuring Services with Lens](https://docs-xcor.paloaltonetworks.com/academy/courses/configuring-services-with-lens.md): Est. ~20–40 minutes. This course provides a comprehensive guide to building a service-centric view of your environment using Cortex XCOR Services. You'll learn a four-step workflow to transform raw telemetry, such as OpenTelemetry and Prometheus, into actionable insights by discovering services, ref…
 - [Creating & Tuning Monitors](https://docs-xcor.paloaltonetworks.com/academy/courses/creating-and-tuning-monitors.md): Est. ~20–40 minutes. Learn the ins and outs of alerting in Cortex XCOR, from templating notifications, to setting up monitor queries, to configuring signals, to iterating on conditions based on simulation and visualizations.
@@ -1169,7 +1176,7 @@
 ## XCOR Academy (external)
 
 - [Alert Response & Troubleshooting](https://learn.chronosphere.io/): Est. ~20–40 minutes. This course covers the essentials for on-call engineers onboarding onto the Observability Platform. You'll explore common troubleshooting strategies for monitor configuration, and break down tools in Cortex XCOR for optimizing incident response, such as Differential Diagnosis. F…
-- [Applying Budgets to Partitions](https://learn.chronosphere.io/): Est. ~15–20 minutes. Learn how to configure budgets to monitor and control usage with our Consumption Pricing system. This quick course dives into how threshold components work together, how to configure multi-threshold budgets, and how to interpret partition visualizations compared to their budgets…
+- [Applying Budgets to Partitions](https://learn.chronosphere.io/): Est. 15 to 20 minutes. Configure budgets and interpret partition consumption against thresholds.
 - [Building Dynamic Dashboards](https://learn.chronosphere.io/): Est. ~20–40 minutes. In this course, you will learn how to transform chaotic data into high-value insights. The course covers strategy for avoiding common dashboard pitfalls, as well as the technical tools that Cortex XCOR provides to build clear, dynamic, and actionable dashboards.
 - [Configuring Services with Lens](https://learn.chronosphere.io/): Est. ~20–40 minutes. This course provides a comprehensive guide to building a service-centric view of your environment using Cortex XCOR Services. You'll learn a four-step workflow to transform raw telemetry, such as OpenTelemetry and Prometheus, into actionable insights by discovering services, ref…
 - [Controlling Logs](https://learn.chronosphere.io/): Est. ~20–40 minutes. Become versed in the Control Plane features of Logging in our Observability Platform. Explore concepts like partitions, control rules and budgets. Learn how to take advantage of the utilization analysis page in Cortex XCOR to make decisions about your log data.

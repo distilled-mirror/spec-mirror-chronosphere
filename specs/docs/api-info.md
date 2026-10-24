@@ -12,11 +12,11 @@ the URL path define endpoints. To access the
 Cortex XCOR API, you need an *API token*.
 
 For information about using the Prometheus API, see
-[Prometheus API overview](/tooling/prometheus-api.md#prometheus-http-api).
+[Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md#prometheus-http-api).
 
-For API endpoint definitions, see the [API reference documentation](/tooling/api-info/definition.md).
+For API endpoint definitions, see the [API reference documentation](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition.md).
 For the structure of dashboard configurations, see the
-[dashboard configuration schema](/tooling/api-info/dashboard_schema.md).
+[dashboard configuration schema](https://docs-xcor.paloaltonetworks.com/tooling/api-info/dashboard_schema.md).
 
 > [!NOTE]
 >
@@ -27,17 +27,17 @@ For the structure of dashboard configurations, see the
 
 A service can access the Cortex XCOR API by authenticating with its API token.
 Many Cortex XCOR API requests require an unrestricted service account. For details,
-see [Service accounts](/administer/accounts-teams/service-accounts.md).
+see [Service accounts](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/service-accounts.md).
 
 A user with sufficient permissions can access the Cortex XCOR API by creating a
 temporary personal access token. For details, see
-[Personal access tokens](/administer/accounts-teams/personal-access-tokens.md).
+[Personal access tokens](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/personal-access-tokens.md).
 
 ## Send requests
 
 Because the Cortex XCOR API requires authentication, include an API token with your
 `curl` request, as shown in the following example. For more details, see
-[Create an API token](/tooling/api-info.md#create-an-api-token).
+[Create an API token](https://docs-xcor.paloaltonetworks.com/tooling/api-info.md#create-an-api-token).
 
 ```shell /"TOKEN"/ /INSTANCE/ /METHOD/ /ENDPOINT_PATH/ theme={null}
 export CHRONOSPHERE_API_TOKEN="TOKEN"
@@ -56,7 +56,7 @@ Replace the following:
 
 > [!NOTE]
 >
-> [Chronoctl](/tooling/chronoctl) also uses the environment variable `CHRONOSPHERE_API_TOKEN`.
+> [Chronoctl](https://docs-xcor.paloaltonetworks.com/tooling/chronoctl) also uses the environment variable `CHRONOSPHERE_API_TOKEN`.
 
 For example, to list all collections:
 
@@ -188,11 +188,11 @@ This example demonstrates the process to iterate over every monitor:
 
 ## Related topics
 
-- [Prometheus API overview](/tooling/prometheus-api.md)
-- [Get started with Cortex XCOR](/overview/get-started.md)
-- [Ingest metrics and traces using the OpenTelemetry Collector](/ingest/metrics-traces/otel.md)
-- [Chronoctl](/tooling/chronoctl.md)
-- [Cortex XCOR MCP server](/integrate/mcp-server.md)
+- [Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md)
+- [Get started with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview/get-started.md)
+- [Ingest metrics and traces using the OpenTelemetry Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel.md)
+- [Chronoctl](https://docs-xcor.paloaltonetworks.com/tooling/chronoctl.md)
+- [Cortex XCOR MCP server](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server.md)
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

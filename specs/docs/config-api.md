@@ -10,7 +10,7 @@ The Config API provides standard HTTP/JSON REST endpoints for creating, reading,
 updating, deleting, and listing configurable Palo Alto Networks Cortex XCOR resources.
 
 Use this link to download the raw Swagger specification:
-[Download](/openapi/api_v1_config_swagger.json)
+[Download](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_config_swagger.json)
 
 ### Security
 
@@ -28,11 +28,11 @@ Example:
 
 ## Related topics
 
-- [Manage service level objectives](/investigate/alerts/manage-slos.md)
-- [DeleteConsumptionConfig](/tooling/api-info/definition/operations/DeleteConsumptionConfig.md)
-- [ReadConsumptionConfig](/tooling/api-info/definition/operations/ReadConsumptionConfig.md)
-- [CreateConsumptionConfig](/tooling/api-info/definition/operations/CreateConsumptionConfig.md)
-- [UpdateConsumptionConfig](/tooling/api-info/definition/operations/UpdateConsumptionConfig.md)
+- [Manage service level objectives](https://docs-xcor.paloaltonetworks.com/investigate/alerts/manage-slos.md)
+- [DeleteConsumptionConfig](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/DeleteConsumptionConfig.md)
+- [ReadConsumptionConfig](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ReadConsumptionConfig.md)
+- [CreateConsumptionConfig](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/CreateConsumptionConfig.md)
+- [UpdateConsumptionConfig](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/UpdateConsumptionConfig.md)
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

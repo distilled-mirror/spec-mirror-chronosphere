@@ -10,7 +10,7 @@ The State API provides HTTP/JSON REST endpoints for accessing the runtime state 
 the Palo Alto Networks Cortex XCOR system.
 
 Use this link to download the raw Swagger specification:
-[Download](/openapi/api_v1_state_swagger.json)
+[Download](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_state_swagger.json)
 
 ### Security
 
@@ -28,11 +28,11 @@ Example:
 
 ## Related topics
 
-- [Install the Cortex XCOR Terraform provider](/tooling/infrastructure/terraform/install.md)
-- [ListCloudIntegrations](/tooling/api-info/definition/operations/ListCloudIntegrations.md)
-- [CreateCloudIntegration](/tooling/api-info/definition/operations/CreateCloudIntegration.md)
-- [Discover and scrape Kubernetes resources with Chronosphere Collector](/ingest/metrics-traces/collector/discover/monitor-kubernetes.md)
-- [UpdateCloudIntegration](/tooling/api-info/definition/operations/UpdateCloudIntegration.md)
+- [Install the Cortex XCOR Terraform provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/terraform/install.md)
+- [ListCloudIntegrations](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ListCloudIntegrations.md)
+- [CreateCloudIntegration](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/CreateCloudIntegration.md)
+- [Discover and scrape Kubernetes resources with Chronosphere Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/discover/monitor-kubernetes.md)
+- [UpdateCloudIntegration](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/UpdateCloudIntegration.md)
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
