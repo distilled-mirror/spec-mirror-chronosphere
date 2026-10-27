@@ -1152,15 +1152,6 @@
 
 ## OpenAPI Specs
 
-- [api_unstable_config_openapi3_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_config_openapi3_DOCUMENTATION_ONLY.json)
-- [api_unstable_config_swagger](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_config_swagger.json)
-- [api_unstable_config_swagger_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_config_swagger_DOCUMENTATION_ONLY.json)
-- [api_unstable_data_openapi3_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_data_openapi3_DOCUMENTATION_ONLY.json)
-- [api_unstable_data_swagger](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_data_swagger.json)
-- [api_unstable_data_swagger_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_data_swagger_DOCUMENTATION_ONLY.json)
-- [api_unstable_state_openapi3_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_state_openapi3_DOCUMENTATION_ONLY.json)
-- [api_unstable_state_swagger](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_state_swagger.json)
-- [api_unstable_state_swagger_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_unstable_state_swagger_DOCUMENTATION_ONLY.json)
 - [api_v1_config_openapi3_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_config_openapi3_DOCUMENTATION_ONLY.json)
 - [api_v1_config_swagger](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_config_swagger.json)
 - [api_v1_config_swagger_DOCUMENTATION_ONLY](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_config_swagger_DOCUMENTATION_ONLY.json)
