@@ -413,13 +413,13 @@
 - [Linux](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/linux.md): Journal records and unit-state metrics from systemd on Linux hosts, optional forwarded syslog records, and target health for the journal, system bus, and listener.
 - [MarkLogic](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/marklogic.md): MarkLogic cluster, database, forest, host, server, request, transaction, storage, and health metrics.
 - [Memcached](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/memcached.md): Memcached cache, operation, and connection metrics.
+- [MongoDB](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mongodb.md): MongoDB server performance and health metrics, including operations, connections, locks, WiredTiger cache, replication, and database storage.
 - [MySQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mysql.md): MySQL server performance and health metrics, including buffer pool, connections, commands, query throughput, and index usage.
-- [Neo4j](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/neo4j.md): Neo4j transaction, query, page cache, checkpoint, Bolt connection, and JVM metrics, scraped from the server's Prometheus endpoint.
 - [NGINX](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/nginx.md): NGINX connection and request metrics scraped from the stub_status endpoint.
 - [OpenMetrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/openmetrics.md): Metrics scraped from OpenMetrics and Prometheus endpoints.
-- [Oracle Database](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/oracle.md): Oracle Database health and workload metrics, including sessions, wait and response time, cache hit ratios, I/O, and tablespace usage per pluggable database.
 - [OTLP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/otlp.md): Logs, metrics, and traces ingested over the OpenTelemetry Protocol from instrumented apps.
 - [PostgreSQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/postgres.md): PostgreSQL connection and workload metrics.
+- [Redis](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/redis.md): Redis server health and performance metrics, including memory, clients, commands, keyspace, persistence, replication, and cluster state.
 - [SNMP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/snmp.md): Availability and performance metrics from SNMP network devices.
 - [TCP Check](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tcp_check.md): Connectivity checks for TCP endpoints — whether a connection to each configured host and port can be established, how long the connect takes, and failed attempts by cause.
 - [Temporal](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/temporal.md): Temporal request, workflow, task, and persistence metrics.
