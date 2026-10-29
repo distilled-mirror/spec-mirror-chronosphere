@@ -17,6 +17,7 @@
 - [Time units](https://docs-xcor.paloaltonetworks.com/overview/concepts/time-units.md): Standard time units used by Palo Alto Networks Cortex XCOR
 - [Metrics dictionary](https://docs-xcor.paloaltonetworks.com/overview/concepts/dictionary.md): Use the metrics dictionary to learn about metrics created by and specific to Palo Alto Networks Cortex XCOR.
 - [Distributed tracing](https://docs-xcor.paloaltonetworks.com/overview/concepts/distributed-tracing.md): Learn about distributed tracing in Palo Alto Networks Cortex XCOR.
+- [Use Markdown in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview/concepts/markdown.md): Use Markdown syntax in text fields and convert notebook content to and from Markdown.
 
 ### Data types
 - [Data types](https://docs-xcor.paloaltonetworks.com/overview/types.md): Learn how to explore telemetry data in Cortex XCOR.
