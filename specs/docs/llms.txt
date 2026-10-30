@@ -376,8 +376,9 @@
 - [Server integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server.md): Ingest metrics directly from cloud providers into Palo Alto Networks Cortex XCOR.
 
 ### AWS
-- [Amazon Web Services](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws.md): Send AWS metrics to Palo Alto Networks Cortex XCOR.
+- [Amazon Web Services](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws.md): Send AWS metrics and logs to Palo Alto Networks Cortex XCOR.
 - [Ingest AWS CloudWatch metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/metrics.md): Learn how to send AWS CloudWatch metrics to Palo Alto Networks Cortex XCOR.
+- [Ingest AWS logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/logs.md): Learn how to send AWS logs to Palo Alto Networks Cortex XCOR.
 
 ### Azure
 - [Azure metrics integration](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Palo Alto Networks Cortex XCOR.
