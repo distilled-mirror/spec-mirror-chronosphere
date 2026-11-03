@@ -381,7 +381,7 @@
 - [Ingest AWS logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/logs.md): Learn how to send AWS logs to Palo Alto Networks Cortex XCOR.
 
 ### Azure
-- [Azure metrics integration](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Palo Alto Networks Cortex XCOR.
+- [Microsoft Azure](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Palo Alto Networks Cortex XCOR.
 - [Azure metrics available in Palo Alto Networks Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure/azure-metrics.md): Reference the Azure metrics that Palo Alto Networks Cortex XCOR ingests.
 
 ### Server integrations
