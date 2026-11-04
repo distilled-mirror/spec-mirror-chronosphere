@@ -418,6 +418,7 @@
 - [Linux](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/linux.md): Journal records and unit-state metrics from systemd on Linux hosts, optional forwarded syslog records, and target health for the journal, system bus, and listener.
 - [MarkLogic](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/marklogic.md): MarkLogic cluster, database, forest, host, server, request, transaction, storage, and health metrics.
 - [Memcached](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/memcached.md): Memcached cache, operation, and connection metrics.
+- [Micrometer](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/micrometer.md): Metrics from Java apps instrumented with Micrometer, including Spring Boot, sent to the CXDOT Collector over OTLP.
 - [Microsoft SQL Server](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/sqlserver.md): Microsoft SQL Server workload, memory, lock, transaction, database, file, and backup metrics.
 - [MongoDB](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mongodb.md): MongoDB server performance and health metrics, including operations, connections, locks, WiredTiger cache, replication, and database storage.
 - [MySQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mysql.md): MySQL server performance and health metrics, including buffer pool, connections, commands, query throughput, and index usage.
