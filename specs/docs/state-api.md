@@ -28,11 +28,11 @@ Example:
 
 ## Related topics
 
-- [Install the Cortex XCOR Terraform provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/terraform/install.md)
 - [ListCloudIntegrations](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ListCloudIntegrations.md)
+- [Install the Cortex XCOR Terraform provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/terraform/install.md)
 - [CreateCloudIntegration](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/CreateCloudIntegration.md)
-- [Discover and scrape Kubernetes resources with Chronosphere Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/discover/monitor-kubernetes.md)
 - [UpdateCloudIntegration](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/UpdateCloudIntegration.md)
+- [ReadCloudIntegration](https://docs-xcor.paloaltonetworks.com/tooling/api-info/definition/operations/ReadCloudIntegration.md)
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
