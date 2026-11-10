@@ -359,6 +359,7 @@
 - [Install the CXDOT Collector on Windows](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/install/windows.md): Install the CXDOT Collector in a supported Windows environment.
 
 ### Configure
+- [Set the CXDOT Collector schema version](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/schema-version.md): Set and update the schema version for CXDOT Collector configuration.
 - [Configure integrations for the CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/integrations.md): Configure CXDOT Collector integrations to collect telemetry from tools and services.
 - [Build custom pipelines for the CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/custom-pipelines.md): Build custom pipelines to process and route telemetry data from the CXDOT Collector.
 - [Enable telemetry egress for the CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector/configure/telemetry-egress.md): Control which telemetry types the CXDOT Collector sends to Cortex XCOR.
@@ -388,8 +389,9 @@
 - [Cloudflare](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/cloudflare.md): Cloudflare zone analytics from the GraphQL Analytics API: HTTP request, bandwidth, threat, security event, and DNS query metrics per zone.
 
 ### Google Cloud
-- [Google Cloud](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Send Google Cloud metrics to Palo Alto Networks Cortex XCOR.
+- [Google Cloud](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Send Google Cloud metrics and logs to Palo Alto Networks Cortex XCOR.
 - [Ingest Google Cloud metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/metrics.md): Learn how to ingest Google Cloud metrics into Palo Alto Networks Cortex XCOR.
+- [Ingest Google Cloud logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/logs.md): Learn how to send Google Cloud logs to Palo Alto Networks Cortex XCOR with a Dataflow job.
 
 ### CXDOT Collector integrations
 - [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Palo Alto Networks Cortex XCOR.
