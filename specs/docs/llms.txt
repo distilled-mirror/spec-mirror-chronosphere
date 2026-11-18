@@ -34,6 +34,7 @@
 - [Case studies](https://docs-xcor.paloaltonetworks.com/overview/case-studies/case-studies.md): End-to-end workflow case studies demonstrating how teams use Palo Alto Networks Cortex XCOR to solve real-world problems.
 - [Case study: responding to incidents](https://docs-xcor.paloaltonetworks.com/overview/case-studies/respond-to-incidents.md): A narrative walkthrough of an on-call engineer investigating and resolving a production incident using Palo Alto Networks Cortex XCOR.
 - [Case study: protecting a telemetry data budget](https://docs-xcor.paloaltonetworks.com/overview/case-studies/manage-budgets.md): A narrative walkthrough of an administrator investigating a telemetry data spike, repartitioning consumption, and revising budgets in Palo Alto Networks Cortex XCOR.
+- [Case study: creating a service-health dashboard](https://docs-xcor.paloaltonetworks.com/overview/case-studies/create-dashboards.md): A narrative walkthrough of an engineer building a reusable service-health dashboard with variables, panels, and events in Palo Alto Networks Cortex XCOR.
 
 ### Guides
 - [Cortex XCOR guides](https://docs-xcor.paloaltonetworks.com/overview/guides.md): Learn about common workflows in Palo Alto Networks Cortex XCOR.
@@ -377,21 +378,22 @@
 - [Server integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server.md): Ingest metrics directly from cloud providers into Palo Alto Networks Cortex XCOR.
 
 ### AWS
-- [Amazon Web Services](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws.md): Send AWS metrics and logs to Palo Alto Networks Cortex XCOR.
-- [Ingest AWS CloudWatch metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/metrics.md): Learn how to send AWS CloudWatch metrics to Palo Alto Networks Cortex XCOR.
-- [Ingest AWS logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/logs.md): Learn how to send AWS logs to Palo Alto Networks Cortex XCOR.
+- [Amazon Web Services](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws.md): Send AWS metrics and logs to Cortex XCOR.
+- [Ingest AWS CloudWatch metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/metrics.md): Learn how to send AWS CloudWatch metrics to Cortex XCOR.
+- [Ingest AWS logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws/logs.md): Learn how to send AWS logs to Cortex XCOR.
 
 ### Azure
-- [Microsoft Azure](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Palo Alto Networks Cortex XCOR.
+- [Microsoft Azure](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Cortex XCOR.
 - [Azure metrics available in Palo Alto Networks Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure/azure-metrics.md): Reference the Azure metrics that Palo Alto Networks Cortex XCOR ingests.
 
 ### Server integrations
+- [BlazeMeter API Monitoring](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/blazemeterapimonitoring.md): BlazeMeter API Monitoring (formerly Runscope) test results from the API Monitoring API, one value per finished test run and per request step, such as pass or fail, assertion, script, and variable results, response times, status codes, and response sizes, under the metric names Runscope sends to Data…
 - [Cloudflare](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/cloudflare.md): Cloudflare zone analytics from the GraphQL Analytics API: HTTP request, bandwidth, threat, security event, and DNS query metrics per zone.
 
 ### Google Cloud
-- [Google Cloud](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Send Google Cloud metrics and logs to Palo Alto Networks Cortex XCOR.
-- [Ingest Google Cloud metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/metrics.md): Learn how to ingest Google Cloud metrics into Palo Alto Networks Cortex XCOR.
-- [Ingest Google Cloud logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/logs.md): Learn how to send Google Cloud logs to Palo Alto Networks Cortex XCOR with a Dataflow job.
+- [Google Cloud](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp.md): Send Google Cloud metrics and logs to Cortex XCOR.
+- [Ingest Google Cloud metrics](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/metrics.md): Learn how to ingest Google Cloud metrics into Cortex XCOR.
+- [Ingest Google Cloud logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/logs.md): Learn how to send Google Cloud logs to Cortex XCOR with a Dataflow job.
 
 ### CXDOT Collector integrations
 - [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Palo Alto Networks Cortex XCOR.
@@ -403,6 +405,7 @@
 - [Apache Mesos](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/mesos.md): Apache Mesos cluster metrics read from the masters' and agents' HTTP APIs, including cluster-wide task, agent, and resource counts, per-framework and per-role allocations, and each agent's tasks, executors, and resources, plus Apache Aurora scheduler metrics, including task counts by state, resource…
 - [Apache Spark](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/spark.md): Apache Spark application metrics read from a driver's REST API, including executor memory and task throughput, garbage collection, shuffle volume, and persisted RDD storage.
 - [Apache Tomcat](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tomcat.md): Apache Tomcat application and Java Virtual Machine runtime metrics collected over JMX.
+- [Argo CD](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/argocd.md): Application sync and health, reconciliation, repository, API server, notification and Go runtime metrics from Argo CD's components, scraped from their Prometheus endpoints.
 - [cert-manager](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/cert_manager.md): Certificate lifecycle and expiry metrics from cert-manager, scraped from its controller's Prometheus endpoint.
 - [ClickHouse](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/clickhouse.md): ClickHouse query, connection, merge, and replication metrics.
 - [Concourse CI](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/concourse_ci.md): Concourse build, job scheduling, resource check, worker, garbage collection, database and API metrics, scraped from web nodes' Prometheus endpoint.
@@ -412,6 +415,7 @@
 - [Docker](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/docker.md): Per-container CPU, memory, block I/O, network, process and uptime metrics from a Docker daemon, plus the daemon's own container and image counts.
 - [Elasticsearch](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/elasticsearch.md): Collect cluster, node, index, operating system, process, and JVM metrics from Elasticsearch.
 - [Envoy](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/envoy.md): Envoy listener, cluster, and traffic metrics.
+- [Hadoop YARN](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/yarn.md): Hadoop YARN cluster, application, node, and CapacityScheduler queue metrics read from a ResourceManager's REST API.
 - [HAProxy](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/haproxy.md): HAProxy connection, request, and session metrics.
 - [Hasura](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/hasura.md): Hasura GraphQL Engine request, subscription, event trigger, and Postgres connection metrics.
 - [Host](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/host.md): Operating system metrics from the machine running the Collector, including CPU, memory, disk, file system, network, load, paging, process counts, and uptime.
@@ -431,6 +435,7 @@
 - [Oracle Database](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/oracle.md): Oracle Database health and workload metrics, including sessions, wait and response time, cache hit ratios, I/O, and tablespace usage per pluggable database.
 - [OTLP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/otlp.md): Logs, metrics, and traces ingested over the OpenTelemetry Protocol from instrumented apps.
 - [PostgreSQL](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/postgres.md): PostgreSQL connection and workload metrics.
+- [RabbitMQ](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/rabbitmq.md): RabbitMQ message, connection, channel, queue, and Erlang runtime metrics.
 - [Redis](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/redis.md): Redis server health and performance metrics, including memory, clients, commands, keyspace, persistence, replication, and cluster state.
 - [SNMP](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/snmp.md): Availability and performance metrics from SNMP network devices.
 - [TCP Check](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/tcp_check.md): Connectivity checks for TCP endpoints — whether a connection to each configured host and port can be established, how long the connect takes, and failed attempts by cause.
