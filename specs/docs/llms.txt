@@ -46,9 +46,10 @@
 - [Navigate the Cortex XCOR interface](https://docs-xcor.paloaltonetworks.com/navigate.md): Learn how to navigate Palo Alto Networks Cortex XCOR to find the functions you need to gain insight into your platforms.
 
 ### Operator
-- [Ask Operator about your telemetry](https://docs-xcor.paloaltonetworks.com/navigate/operator.md): Learn how Operator answers questions, queries telemetry, and edits dashboards in Cortex XCOR.
+- [Ask Operator about your telemetry](https://docs-xcor.paloaltonetworks.com/navigate/operator.md): Learn how Operator answers questions, queries telemetry, edits dashboards, and drafts changes in Cortex XCOR.
 - [Operator interface reference](https://docs-xcor.paloaltonetworks.com/navigate/operator/interface.md): Reference for the controls, message elements, and keyboard shortcuts in Cortex XCOR Operator.
 - [Operator capabilities reference](https://docs-xcor.paloaltonetworks.com/navigate/operator/capabilities.md): Reference for the data Cortex XCOR Operator reads, the skills it uses, and the changes it can make.
+- [Draft changes with Operator workspaces](https://docs-xcor.paloaltonetworks.com/navigate/operator/workspaces.md): Use Operator workspaces to draft, review, and save changes to dashboards, notebooks, monitors, SLOs, and notification policies.
 
 ### Navigate
 - [Search for resources in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/navigate/search.md): Use global search to find dashboards, monitors, services, SLOs, teams, and collections by name, and open Operator when you want to describe what you're looking for.
