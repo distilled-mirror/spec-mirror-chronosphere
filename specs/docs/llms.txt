@@ -388,7 +388,7 @@
 - [Azure metrics available in Palo Alto Networks Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure/azure-metrics.md): Reference the Azure metrics that Palo Alto Networks Cortex XCOR ingests.
 
 ### Server integrations
-- [BlazeMeter API Monitoring](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/blazemeterapimonitoring.md): BlazeMeter API Monitoring (formerly Runscope) test results from the API Monitoring API, one value per finished test run and per request step, such as pass or fail, assertion, script, and variable results, response times, status codes, and response sizes, under the metric names Runscope sends to Data…
+- [BlazeMeter API Monitoring](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/blazemeterapimonitoring.md): BlazeMeter API Monitoring (formerly Runscope) test results for each run and request step, including pass or fail status, assertions, response times, and status codes. Uses the same metric names as the Runscope Datadog integration.
 - [Cloudflare](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/cloudflare.md): Cloudflare zone analytics from the GraphQL Analytics API: HTTP request, bandwidth, threat, security event, and DNS query metrics per zone.
 
 ### Google Cloud
