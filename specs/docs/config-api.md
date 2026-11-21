@@ -7,7 +7,7 @@
 v1
 
 The Config API provides standard HTTP/JSON REST endpoints for creating, reading,
-updating, deleting, and listing configurable Palo Alto Networks Cortex XCOR resources.
+updating, deleting, and listing configurable Cortex XCOR resources.
 
 Use this link to download the raw Swagger specification:
 [Download](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_config_swagger.json)

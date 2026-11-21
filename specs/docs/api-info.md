@@ -6,10 +6,10 @@
 
 > How to access and use the Cortex XCOR API for programmatic access to your observability data.
 
-The Cortex XCOR API is an HTTP/JSON REST API for Palo Alto Networks Cortex XCOR, where the
+The Cortex XCOR API is an HTTP/JSON REST API for XCOR, where the
 HTTP method and
 the URL path define endpoints. To access the
-Cortex XCOR API, you need an *API token*.
+XCOR API, you need an *API token*.
 
 For information about using the Prometheus API, see
 [Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md#prometheus-http-api).
@@ -25,11 +25,11 @@ For the structure of dashboard configurations, see the
 
 ## Create an API token
 
-A service can access the Cortex XCOR API by authenticating with its API token.
-Many Cortex XCOR API requests require an unrestricted service account. For details,
+A service can access the XCOR API by authenticating with its API token.
+Many XCOR API requests require an unrestricted service account. For details,
 see [Service accounts](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/service-accounts.md).
 
-A user with sufficient permissions can access the Cortex XCOR API by creating a
+A user with sufficient permissions can access the XCOR API by creating a
 temporary personal access token. For details, see
 [Personal access tokens](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/personal-access-tokens.md).
 
@@ -190,7 +190,7 @@ This example demonstrates the process to iterate over every monitor:
 
 - [Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md)
 - [Get started with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview/get-started.md)
-- [Ingest metrics and traces using the OpenTelemetry Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel.md)
+- [Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview.md)
 - [Cortex XCOR MCP server tools](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server/resources.md)
 - [Cortex XCOR Pulumi provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/pulumi.md)
 

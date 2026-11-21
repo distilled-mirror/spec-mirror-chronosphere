@@ -7,7 +7,7 @@
 v1
 
 The Data API provides HTTP/JSON REST endpoints for reading and writing data to the
-Palo Alto Networks Cortex XCOR system.
+Cortex XCOR system.
 
 Use this link to download the raw Swagger specification:
 [Download](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_data_swagger.json)
@@ -29,9 +29,9 @@ Example:
 ## Related topics
 
 - [Telemetry data budgets](https://docs-xcor.paloaltonetworks.com/control/consumption/budgeting.md)
-- [Visualize data using dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards.md)
-- [Parse your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/parse-logs.md)
 - [Normalize your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/normalize-logs.md)
+- [Parse your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/parse-logs.md)
+- [Visualize data using dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards.md)
 - [Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md)
 
 

@@ -8,42 +8,42 @@
 ## Cortex XCOR
 
 ### Overview
-- [Palo Alto Networks Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview.md): Learn about Palo Alto Networks Cortex XCOR and its capabilities.
-- [Get started with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview/get-started.md): Learn about several of the common paths to complete tasks in Palo Alto Networks Cortex XCOR.
+- [Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview.md): Learn about Cortex XCOR and its capabilities.
+- [Get started with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview/get-started.md): Learn about several of the common paths to complete tasks in Cortex XCOR.
 
 ### Concepts
-- [Cortex XCOR concepts](https://docs-xcor.paloaltonetworks.com/overview/concepts.md): Learn more about components, concepts, and terms used by Palo Alto Networks Cortex XCOR.
+- [Cortex XCOR concepts](https://docs-xcor.paloaltonetworks.com/overview/concepts.md): Learn more about components, concepts, and terms used by Cortex XCOR.
 - [Change events](https://docs-xcor.paloaltonetworks.com/overview/concepts/change-events.md): Learn about how to use change events to understand what changed in your environment.
-- [Time units](https://docs-xcor.paloaltonetworks.com/overview/concepts/time-units.md): Standard time units used by Palo Alto Networks Cortex XCOR
-- [Metrics dictionary](https://docs-xcor.paloaltonetworks.com/overview/concepts/dictionary.md): Use the metrics dictionary to learn about metrics created by and specific to Palo Alto Networks Cortex XCOR.
-- [Distributed tracing](https://docs-xcor.paloaltonetworks.com/overview/concepts/distributed-tracing.md): Learn about distributed tracing in Palo Alto Networks Cortex XCOR.
+- [Time units](https://docs-xcor.paloaltonetworks.com/overview/concepts/time-units.md): Standard time units used by Cortex XCOR
+- [Metrics dictionary](https://docs-xcor.paloaltonetworks.com/overview/concepts/dictionary.md): Use the metrics dictionary to learn about metrics created by and specific to Cortex XCOR.
+- [Distributed tracing](https://docs-xcor.paloaltonetworks.com/overview/concepts/distributed-tracing.md): Learn about distributed tracing in Cortex XCOR.
 - [Use Markdown in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview/concepts/markdown.md): Use Markdown syntax in text fields and convert notebook content to and from Markdown.
 
 ### Data types
 - [Data types](https://docs-xcor.paloaltonetworks.com/overview/types.md): Learn how to explore telemetry data in Cortex XCOR.
 - [Ingest, query, and control your metric data](https://docs-xcor.paloaltonetworks.com/overview/types/metrics.md): Learn about how Cortex XCOR can help you understand what's driving data storage volume and use.
-- [Ingest, query, and control your log data](https://docs-xcor.paloaltonetworks.com/overview/types/logs.md): Learn about how to get started with Palo Alto Networks Cortex XCOR logging.
-- [Ingest, query, and control your trace data](https://docs-xcor.paloaltonetworks.com/overview/types/traces.md): Learn about interacting with trace data in Palo Alto Networks Cortex XCOR.
-- [Ingest, filter, and overlay change events](https://docs-xcor.paloaltonetworks.com/overview/types/change-events.md): Learn about interacting with change events in Palo Alto Networks Cortex XCOR.
+- [Ingest, query, and control your log data](https://docs-xcor.paloaltonetworks.com/overview/types/logs.md): Learn about how to get started with Cortex XCOR logging.
+- [Ingest, query, and control your trace data](https://docs-xcor.paloaltonetworks.com/overview/types/traces.md): Learn about interacting with trace data in Cortex XCOR.
+- [Ingest, filter, and overlay change events](https://docs-xcor.paloaltonetworks.com/overview/types/change-events.md): Learn about interacting with change events in Cortex XCOR.
 
 ### Overview
-- [Authenticate with Cortex XCOR as a user](https://docs-xcor.paloaltonetworks.com/overview/authenticating.md): Authenticate with Palo Alto Networks Cortex XCOR by signing in with single sign-on, a password, or a personal access token.
-- [Understanding generative AI features](https://docs-xcor.paloaltonetworks.com/overview/generative-ai.md): Learn how Palo Alto Networks Cortex XCOR provides generative AI features.
+- [Authenticate with Cortex XCOR as a user](https://docs-xcor.paloaltonetworks.com/overview/authenticating.md): Authenticate with Cortex XCOR by signing in with single sign-on, a password, or a personal access token.
+- [Understanding generative AI features](https://docs-xcor.paloaltonetworks.com/overview/generative-ai.md): Learn how Cortex XCOR provides generative AI features.
 
 ### Case studies
-- [Case studies](https://docs-xcor.paloaltonetworks.com/overview/case-studies/case-studies.md): End-to-end workflow case studies demonstrating how teams use Palo Alto Networks Cortex XCOR to solve real-world problems.
-- [Case study: responding to incidents](https://docs-xcor.paloaltonetworks.com/overview/case-studies/respond-to-incidents.md): A narrative walkthrough of an on-call engineer investigating and resolving a production incident using Palo Alto Networks Cortex XCOR.
-- [Case study: protecting a telemetry data budget](https://docs-xcor.paloaltonetworks.com/overview/case-studies/manage-budgets.md): A narrative walkthrough of an administrator investigating a telemetry data spike, repartitioning consumption, and revising budgets in Palo Alto Networks Cortex XCOR.
-- [Case study: creating a service-health dashboard](https://docs-xcor.paloaltonetworks.com/overview/case-studies/create-dashboards.md): A narrative walkthrough of an engineer building a reusable service-health dashboard with variables, panels, and events in Palo Alto Networks Cortex XCOR.
+- [Case studies](https://docs-xcor.paloaltonetworks.com/overview/case-studies/case-studies.md): End-to-end workflow case studies demonstrating how teams use Cortex XCOR to solve real-world problems.
+- [Case study: responding to incidents](https://docs-xcor.paloaltonetworks.com/overview/case-studies/respond-to-incidents.md): A narrative walkthrough of an on-call engineer investigating and resolving a production incident using Cortex XCOR.
+- [Case study: protecting a telemetry data budget](https://docs-xcor.paloaltonetworks.com/overview/case-studies/manage-budgets.md): A narrative walkthrough of an administrator investigating a telemetry data spike, repartitioning consumption, and revising budgets in Cortex XCOR.
+- [Case study: creating a service-health dashboard](https://docs-xcor.paloaltonetworks.com/overview/case-studies/create-dashboards.md): A narrative walkthrough of an engineer building a reusable service-health dashboard with variables, panels, and events in Cortex XCOR.
 
 ### Guides
-- [Cortex XCOR guides](https://docs-xcor.paloaltonetworks.com/overview/guides.md): Learn about common workflows in Palo Alto Networks Cortex XCOR.
-- [Respond to incidents](https://docs-xcor.paloaltonetworks.com/overview/guides/incident-response.md): A workflow guide for on-call engineers who receive, triage, investigate, and resolve alerts in Palo Alto Networks Cortex XCOR.
+- [Cortex XCOR guides](https://docs-xcor.paloaltonetworks.com/overview/guides.md): Learn about common workflows in Cortex XCOR.
+- [Respond to incidents](https://docs-xcor.paloaltonetworks.com/overview/guides/incident-response.md): A workflow guide for on-call engineers who receive, triage, investigate, and resolve alerts in Cortex XCOR.
 - [Create dashboards for service health](https://docs-xcor.paloaltonetworks.com/overview/guides/create-dashboards.md): Build a reusable Cortex XCOR standard dashboard with variables, PromQL panels, annotations, and change events.
-- [Manage telemetry data budgets](https://docs-xcor.paloaltonetworks.com/overview/guides/manage-budgets.md): A workflow guide for administrators who partition telemetry data, analyze consumption, and set budget thresholds in Palo Alto Networks Cortex XCOR.
+- [Manage telemetry data budgets](https://docs-xcor.paloaltonetworks.com/overview/guides/manage-budgets.md): A workflow guide for administrators who partition telemetry data, analyze consumption, and set budget thresholds in Cortex XCOR.
 
 ### Navigate
-- [Navigate the Cortex XCOR interface](https://docs-xcor.paloaltonetworks.com/navigate.md): Learn how to navigate Palo Alto Networks Cortex XCOR to find the functions you need to gain insight into your platforms.
+- [Navigate the Cortex XCOR interface](https://docs-xcor.paloaltonetworks.com/navigate.md): Learn how to navigate Cortex XCOR to find the functions you need to gain insight into your platforms.
 
 ### Operator
 - [Ask Operator about your telemetry](https://docs-xcor.paloaltonetworks.com/navigate/operator.md): Learn how Operator answers questions, queries telemetry, edits dashboards, and drafts changes in Cortex XCOR.
@@ -56,33 +56,33 @@
 - [Use notebooks to gather related information](https://docs-xcor.paloaltonetworks.com/navigate/notebooks.md): Use notebooks to gather graphs, charts, and other resources from multiple pages into one place while troubleshooting a problem.
 - [Reuse label selections with Quick filters](https://docs-xcor.paloaltonetworks.com/navigate/quick-filters.md)
 - [Select time ranges](https://docs-xcor.paloaltonetworks.com/navigate/time-ranges.md): Use the time range selector to scope queries, charts, tables, and graphs across monitors, dashboards, service pages, and explorers.
-- [Use comments to provide context](https://docs-xcor.paloaltonetworks.com/navigate/comments.md): Learn about how to use comments in Palo Alto Networks Cortex XCOR to identify important data.
+- [Use comments to provide context](https://docs-xcor.paloaltonetworks.com/navigate/comments.md): Learn about how to use comments in Cortex XCOR to identify important data.
 - [Create favorites to find resources quickly](https://docs-xcor.paloaltonetworks.com/navigate/favorites.md): Mark dashboards and monitors as favorites to reach them faster from your personal home page, filtered resource lists, and search results.
 
 ### Observe
-- [Observe your telemetry data](https://docs-xcor.paloaltonetworks.com/observe.md): Palo Alto Networks Cortex XCOR provides scalable, high-performance observability with metrics, tracing, and logging for complex system monitoring.
+- [Observe your telemetry data](https://docs-xcor.paloaltonetworks.com/observe.md): Cortex XCOR provides scalable, high-performance observability with metrics, tracing, and logging for complex system monitoring.
 - [Personal home page](https://docs-xcor.paloaltonetworks.com/observe/personal-homepage.md): Customize your personal home page to display panels of recently viewed, recently modified, and favorite resources after you sign in.
-- [Command Center](https://docs-xcor.paloaltonetworks.com/observe/command-center.md): Use the Command Center in Palo Alto Networks Cortex XCOR to review SLO health, critical triggered alerts, and metrics pipeline optimization.
+- [Command Center](https://docs-xcor.paloaltonetworks.com/observe/command-center.md): Use the Command Center in Cortex XCOR to review SLO health, critical triggered alerts, and metrics pipeline optimization.
 
 ### Dashboards
-- [Visualize data using dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards.md): Use dashboards to create and organize data visualizations in Palo Alto Networks Cortex XCOR.
+- [Visualize data using dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards.md): Use dashboards to create and organize data visualizations in Cortex XCOR.
 
 ### Panels
-- [Visualize dashboard contents with panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels.md): Create and customize data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize relative data with bar charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/bar-chart.md): Create and customize bar chart data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize histogram distribution](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/distribution-chart.md): Create and customize histogram distribution visualization panels for Palo Alto Networks Cortex XCOR dashboards.
+- [Visualize dashboard contents with panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels.md): Create and customize data visualization panels for Cortex XCOR dashboards.
+- [Visualize relative data with bar charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/bar-chart.md): Create and customize bar chart data visualization panels for Cortex XCOR dashboards.
+- [Visualize histogram distribution](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/distribution-chart.md): Create and customize histogram distribution visualization panels for Cortex XCOR dashboards.
 - [Embed external resources in an iframe](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/external.md): Embed external resources into Cortex XCOR dashboards by using an iframe.
-- [Visualize values in ranges with gauge charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/gauge-chart.md): Create and customize gauge chart data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize data density and histograms with heat maps](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/heat-map.md): Create and customize heat map data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Document dashboards with Markdown panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/markdown.md): Document dashboards with Markdown panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize proportional data with pie charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/pie-chart.md): Create and customize pie chart data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize service topology with panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/service-topology.md): View and customize service topology panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Compare SLO availability across periods with Single SLO panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/single-slo.md): Create and customize Single SLO panels that compare one service level objective's availability across multiple time periods on Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize large statistic numbers with stat charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/stat-chart.md): Create and customize stat chart data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize the status history](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/status-history.md): Create and customize status history data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [Display data in a table](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/table.md): Create and customize tables of data from query results for Palo Alto Networks Cortex XCOR dashboards.
-- [Visualize time series with charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/time-series-chart.md): Create and customize time series data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
-- [JSON representation format](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/json-representation.md): Create and customize data visualization panels for Palo Alto Networks Cortex XCOR dashboards.
+- [Visualize values in ranges with gauge charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/gauge-chart.md): Create and customize gauge chart data visualization panels for Cortex XCOR dashboards.
+- [Visualize data density and histograms with heat maps](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/heat-map.md): Create and customize heat map data visualization panels for Cortex XCOR dashboards.
+- [Document dashboards with Markdown panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/markdown.md): Document dashboards with Markdown panels for Cortex XCOR dashboards.
+- [Visualize proportional data with pie charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/pie-chart.md): Create and customize pie chart data visualization panels for Cortex XCOR dashboards.
+- [Visualize service topology with panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/service-topology.md): View and customize service topology panels for Cortex XCOR dashboards.
+- [Compare SLO availability across periods with Single SLO panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/single-slo.md): Create and customize Single SLO panels that compare one service level objective's availability across multiple time periods on Cortex XCOR dashboards.
+- [Visualize large statistic numbers with stat charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/stat-chart.md): Create and customize stat chart data visualization panels for Cortex XCOR dashboards.
+- [Visualize the status history](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/status-history.md): Create and customize status history data visualization panels for Cortex XCOR dashboards.
+- [Display data in a table](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/table.md): Create and customize tables of data from query results for Cortex XCOR dashboards.
+- [Visualize time series with charts](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/time-series-chart.md): Create and customize time series data visualization panels for Cortex XCOR dashboards.
+- [JSON representation format](https://docs-xcor.paloaltonetworks.com/observe/dashboards/panels/json-representation.md): Create and customize data visualization panels for Cortex XCOR dashboards.
 
 ### Customize
 - [Customize dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/customization.md): Customize dashboards with layouts, time ranges, and variables to organize panels and focus your data visualizations.
@@ -91,45 +91,45 @@
 - [Customize panel queries with dashboard variables](https://docs-xcor.paloaltonetworks.com/observe/dashboards/customization/dashboard-variables.md): Create dashboard variables to help dashboard users quickly customize queries with predefined values.
 
 ### Dashboards
-- [Query traces in dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/query-traces.md): Learn how to query traces from within a Palo Alto Networks Cortex XCOR dashboard.
+- [Query traces in dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/query-traces.md): Learn how to query traces from within a Cortex XCOR dashboard.
 - [Cortex XCOR-managed dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/managed-dashboards.md): Learn about dashboards included with and managed by Cortex XCOR.
 - [Annotate standard dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/annotations.md): Create, view, edit, and delete manual annotations that mark points in time on Cortex XCOR standard dashboards.
 
 ### Classic dashboards
-- [Classic dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/classic-dashboards.md): Create and manage Grafana-based classic dashboards, and compare them with standard dashboards in Palo Alto Networks Cortex XCOR.
+- [Classic dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/classic-dashboards.md): Create and manage Grafana-based classic dashboards, and compare them with standard dashboards in Cortex XCOR.
 - [Migrate classic dashboards to standard dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/classic-dashboards/migrate-to-standard.md): Convert Grafana or classic dashboard JSON into standard dashboards using the Cortex XCOR API.
-- [Import Grafana dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/classic-dashboards/grafana-import.md): Import dashboards exported from Grafana 7.5 or earlier into Palo Alto Networks Cortex XCOR as classic dashboards.
+- [Import Grafana dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards/classic-dashboards/grafana-import.md): Import dashboards exported from Grafana 7.5 or earlier into Cortex XCOR as classic dashboards.
 - [Visualize dashboard contents with panels](https://docs-xcor.paloaltonetworks.com/observe/dashboards/classic-dashboards/classic-panels.md): Add and configure chart panels on a classic dashboard to transform, filter, and visualize the results of a query.
 
 ### Dashboards
 - [Standard dashboard config reference](https://docs-xcor.paloaltonetworks.com/observe/dashboards/endpoint_schema.md)
 
 ### Services
-- [Services](https://docs-xcor.paloaltonetworks.com/observe/services.md): Learn about services in Palo Alto Networks Cortex XCOR.
-- [Configure services](https://docs-xcor.paloaltonetworks.com/observe/services/configure-services.md): Set up service discovery, presentations, and SLOs in Palo Alto Networks Cortex XCOR.
+- [Services](https://docs-xcor.paloaltonetworks.com/observe/services.md): Learn about services in Cortex XCOR.
+- [Configure services](https://docs-xcor.paloaltonetworks.com/observe/services/configure-services.md): Set up service discovery, presentations, and SLOs in Cortex XCOR.
 - [Service pages](https://docs-xcor.paloaltonetworks.com/observe/services/service-pages.md): Learn about the different components of service pages and how to view data related to your services.
 - [Exploring services with tracing data](https://docs-xcor.paloaltonetworks.com/observe/services/service-exploration.md): Learn about how to use services and traces to find issues.
 - [Extend services](https://docs-xcor.paloaltonetworks.com/observe/services/extending-services.md): Learn how to extend services with change events, dependency maps, and connected resources.
 
 ### Events
 - [Overlay and enable change events](https://docs-xcor.paloaltonetworks.com/observe/enable-events.md): Overlay and enable change events in Cortex XCOR to understand what changed in your environment.
-- [Use change events](https://docs-xcor.paloaltonetworks.com/observe/enable-events/use-events.md): Use change events in Palo Alto Networks Cortex XCOR to understand what changed in your environment.
+- [Use change events](https://docs-xcor.paloaltonetworks.com/observe/enable-events/use-events.md): Use change events in Cortex XCOR to understand what changed in your environment.
 - [Enable change events on dashboards](https://docs-xcor.paloaltonetworks.com/observe/enable-events/dashboards.md): Enable change events as annotations on classic and standard dashboard panels by adding an annotation with a change events query.
 - [Enable change events on service pages](https://docs-xcor.paloaltonetworks.com/observe/enable-events/services.md): Learn how to enable and overlay change events on service pages in Cortex XCOR.
 - [Enable change events on traces](https://docs-xcor.paloaltonetworks.com/observe/enable-events/traces.md): Learn how to enable and overlay change events on tracing data in Trace Explorer.
 
 ### Observe
-- [Service level objectives](https://docs-xcor.paloaltonetworks.com/observe/slo.md): Learn about service level objectives (SLOs) in Palo Alto Networks Cortex XCOR.
+- [Service level objectives](https://docs-xcor.paloaltonetworks.com/observe/slo.md): Learn about service level objectives (SLOs) in Cortex XCOR.
 
 ### Investigate
-- [Investigate your telemetry data](https://docs-xcor.paloaltonetworks.com/investigate.md): Palo Alto Networks Cortex XCOR offers tools for metric and trace analysis, providing insights that help with troubleshooting and resolution.
+- [Investigate your telemetry data](https://docs-xcor.paloaltonetworks.com/investigate.md): Cortex XCOR offers tools for metric and trace analysis, providing insights that help with troubleshooting and resolution.
 
 ### Query data
 - [Search and query telemetry data](https://docs-xcor.paloaltonetworks.com/investigate/querying.md): Learn about how to query your telemetry data from Cortex XCOR.
 
 ### Search logs
-- [Search and filter log data](https://docs-xcor.paloaltonetworks.com/investigate/querying/query-logs.md): Learn how to search and filter logs in Palo Alto Networks Cortex XCOR.
-- [Logging query syntax](https://docs-xcor.paloaltonetworks.com/investigate/querying/query-logs/query-syntax.md): Learn about the syntax for querying logs in Palo Alto Networks Cortex XCOR.
+- [Search and filter log data](https://docs-xcor.paloaltonetworks.com/investigate/querying/query-logs.md): Learn how to search and filter logs in Cortex XCOR.
+- [Logging query syntax](https://docs-xcor.paloaltonetworks.com/investigate/querying/query-logs/query-syntax.md): Learn about the syntax for querying logs in Cortex XCOR.
 
 ### Search metrics
 - [Search and query metrics](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics.md): Learn how to search and query metrics in Metrics Explorer.
@@ -142,32 +142,32 @@
 - [Derived labels](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/derived-telemetry/derived-labels.md): Learn about using derived labels to standardize data in Cortex XCOR.
 
 ### Search metrics
-- [Querying delta temporality metrics](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/delta-queries.md): Query delta temporality metrics in Palo Alto Networks Cortex XCOR, and learn how they differ from cumulative temporality metrics.
+- [Querying delta temporality metrics](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/delta-queries.md): Query delta temporality metrics in Cortex XCOR, and learn how they differ from cumulative temporality metrics.
 - [Alert metrics](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/alert-metrics.md): Query the ALERTS metric with PromQL to inspect triggered and pending alert series.
 - [Fixing slow queries and dashboards](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/fixing.md): Learn about ways to improve slow queries and dashboards to avoid query truncation.
-- [Troubleshooting missing metrics](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/troubleshooting.md): Learn about fixing issues when metric data doesn't display as expected in Palo Alto Networks Cortex XCOR.
+- [Troubleshooting missing metrics](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/troubleshooting.md): Learn about fixing issues when metric data doesn't display as expected in Cortex XCOR.
 - [Classic Metrics Explorer](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/explorer-classic.md): Use the classic Metrics Explorer to craft and inspect metric queries, and learn why moving to Metrics Explorer is recommended.
 - [Create queries with the Query Builder](https://docs-xcor.paloaltonetworks.com/investigate/querying/metrics/builder.md): Learn how to use the Query Builder to find and analyze data.
 
 ### Search traces
 - [Search and filter trace data](https://docs-xcor.paloaltonetworks.com/investigate/querying/traces.md): Learn how to define a search in Trace Explorer and build a filter for trace data.
 - [Trace Explorer features overview](https://docs-xcor.paloaltonetworks.com/investigate/querying/traces/features.md): Learn about the features in Trace Explorer you can use to explore trace data.
-- [Examples for tracing](https://docs-xcor.paloaltonetworks.com/investigate/querying/traces/examples.md): Learn how to use distributed tracing tools in Palo Alto Networks Cortex XCOR.
+- [Examples for tracing](https://docs-xcor.paloaltonetworks.com/investigate/querying/traces/examples.md): Learn how to use distributed tracing tools in Cortex XCOR.
 
 ### Query data
-- [Search and filter change events](https://docs-xcor.paloaltonetworks.com/investigate/querying/filter-events.md): Search and filter change events in Palo Alto Networks Cortex XCOR to identify the root cause of issues.
+- [Search and filter change events](https://docs-xcor.paloaltonetworks.com/investigate/querying/filter-events.md): Search and filter change events in Cortex XCOR to identify the root cause of issues.
 - [Generate queries using natural language](https://docs-xcor.paloaltonetworks.com/investigate/querying/natural-language.md): Learn how to generate and refine queries from natural language prompts.
 
 ### Use PromQL
-- [Using PromQL in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/investigate/querying/promql.md): Learn the PromQL syntax and features for selecting and aggregating time series data in Palo Alto Networks Cortex XCOR.
+- [Using PromQL in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/investigate/querying/promql.md): Learn the PromQL syntax and features for selecting and aggregating time series data in Cortex XCOR.
 - [Applying PromQL functions](https://docs-xcor.paloaltonetworks.com/investigate/querying/promql/apply-functions.md): Learn about how to apply PromQL functions in Cortex XCOR.
-- [Using custom PromQL functions in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/investigate/querying/promql/custom-functions.md): Reference the custom PromQL functions that Palo Alto Networks Cortex XCOR supports in addition to standard PromQL functions.
+- [Using custom PromQL functions in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/investigate/querying/promql/custom-functions.md): Reference the custom PromQL functions that Cortex XCOR supports in addition to standard PromQL functions.
 - [Experimental PromQL functions and operators](https://docs-xcor.paloaltonetworks.com/investigate/querying/promql/experimental-functions.md): Learn experimental PromQL functions in Cortex XCOR.
 
 ### Query data
-- [Create dashboards from queries](https://docs-xcor.paloaltonetworks.com/investigate/querying/dashboard-query.md): Learn how to create dashboards that include telemetry data queries in Palo Alto Networks Cortex XCOR.
+- [Create dashboards from queries](https://docs-xcor.paloaltonetworks.com/investigate/querying/dashboard-query.md): Learn how to create dashboards that include telemetry data queries in Cortex XCOR.
 - [Create links to related information](https://docs-xcor.paloaltonetworks.com/investigate/querying/create-links.md): Learn how to create links from one telemetry type to other information in Cortex XCOR.
-- [Regular expressions](https://docs-xcor.paloaltonetworks.com/investigate/querying/regular-expressions.md): Learn about which regular expression engine to use when querying data in Palo Alto Networks Cortex XCOR.
+- [Regular expressions](https://docs-xcor.paloaltonetworks.com/investigate/querying/regular-expressions.md): Learn about which regular expression engine to use when querying data in Cortex XCOR.
 - [Glob syntax](https://docs-xcor.paloaltonetworks.com/investigate/querying/glob-syntax.md): Use glob wildcard patterns such as *, ?, and brackets to match and filter values in Cortex XCOR queries.
 
 ### Analyze data
@@ -180,14 +180,14 @@
 
 ### Analyze data
 - [Analyze live traffic metrics](https://docs-xcor.paloaltonetworks.com/investigate/analyze/telemetry-analyzer.md): Use Live Telemetry Analyzer to view incoming metrics, troubleshoot ingest spikes, and identify metrics to reduce.
-- [Analyze live traffic traces](https://docs-xcor.paloaltonetworks.com/investigate/analyze/trace-analyzer.md): Use Trace Analyzer in Palo Alto Networks Cortex XCOR to view incoming traces.
+- [Analyze live traffic traces](https://docs-xcor.paloaltonetworks.com/investigate/analyze/trace-analyzer.md): Use Trace Analyzer in Cortex XCOR to view incoming traces.
 - [Analyze metrics usage](https://docs-xcor.paloaltonetworks.com/investigate/analyze/usage.md): Learn about viewing metrics in your system to understand which are used most and least.
 - [Analyze logs usage](https://docs-xcor.paloaltonetworks.com/investigate/analyze/logs-usage.md): Learn about utility scores and analyzing volume for log data in Cortex XCOR.
 - [Analyze query load](https://docs-xcor.paloaltonetworks.com/investigate/analyze/query-analyzer.md): Use Query Analyzer to rank monitor and recording rule queries by relative load and assess which to modify.
 
 ### Configure alerts
-- [Overview of alerting](https://docs-xcor.paloaltonetworks.com/investigate/alerts.md): Palo Alto Networks Cortex XCOR lets you create and manage custom alerts for timely notifications about critical issues.
-- [Alert details](https://docs-xcor.paloaltonetworks.com/investigate/alerts/alert-details.md): Palo Alto Networks Cortex XCOR lists triggered alerts and generates detailed visualizations of each alert.
+- [Overview of alerting](https://docs-xcor.paloaltonetworks.com/investigate/alerts.md): Cortex XCOR lets you create and manage custom alerts for timely notifications about critical issues.
+- [Alert details](https://docs-xcor.paloaltonetworks.com/investigate/alerts/alert-details.md): Cortex XCOR lists triggered alerts and generates detailed visualizations of each alert.
 
 ### Monitors
 - [Use monitors to generate alerts and notifications](https://docs-xcor.paloaltonetworks.com/investigate/alerts/monitors.md): Create and manage monitors that generate alerts and notifications from your data, and compare thresholds against historical data.
@@ -202,26 +202,26 @@
 - [Alert notifications](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications.md): Configure notifiers and notification policies that route monitor alerts to endpoints such as email, PagerDuty, and Slack.
 
 ### Notifiers
-- [Notifiers](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers.md): View and create notifiers with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
-- [Create a discard notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/discard.md): Create and route to a discard notifier with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
-- [Create an email notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/email.md): Create an email notifier with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
-- [Create an incident.io notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/incident.md): Create an incident.io notifier with Palo Alto Networks Cortex XCOR.
-- [Create an Opsgenie notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/opsgenie.md): Create an Opsgenie notifier with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
-- [Create a PagerDuty notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/pagerduty.md): Create a PagerDuty notifier with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
-- [Create a Slack notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/slack.md): Create a Slack notifier with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
-- [Create a VictorOps notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/victorops.md): Create a VictorOps notifier with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
-- [Create a webhook notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/webhook.md): Create a generic webhook notifier with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
+- [Notifiers](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers.md): View and create notifiers with Cortex XCOR, Chronoctl, or Terraform.
+- [Create a discard notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/discard.md): Create and route to a discard notifier with Cortex XCOR, Chronoctl, or Terraform.
+- [Create an email notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/email.md): Create an email notifier with Cortex XCOR, Chronoctl, or Terraform.
+- [Create an incident.io notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/incident.md): Create an incident.io notifier with Cortex XCOR.
+- [Create an Opsgenie notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/opsgenie.md): Create an Opsgenie notifier with Cortex XCOR, Chronoctl, or Terraform.
+- [Create a PagerDuty notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/pagerduty.md): Create a PagerDuty notifier with Cortex XCOR, Chronoctl, or Terraform.
+- [Create a Slack notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/slack.md): Create a Slack notifier with Cortex XCOR, Chronoctl, or Terraform.
+- [Create a VictorOps notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/victorops.md): Create a VictorOps notifier with Cortex XCOR, Chronoctl, or Terraform.
+- [Create a webhook notifier](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/notifiers/webhook.md): Create a generic webhook notifier with Cortex XCOR, Chronoctl, or Terraform.
 
 ### Notifications
-- [Notification policies](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/policies.md): View and create notification policies with Palo Alto Networks Cortex XCOR, Chronoctl, or Terraform.
+- [Notification policies](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/policies.md): View and create notification policies with Cortex XCOR, Chronoctl, or Terraform.
 - [Notifier connections](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/external-connections.md): Credentials for notification delivery, referenced from notification policies.
-- [Signals](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/signals.md): View and create signals with Palo Alto Networks Cortex XCOR.
+- [Signals](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/signals.md): View and create signals with Cortex XCOR.
 - [Slack unfurling integration](https://docs-xcor.paloaltonetworks.com/investigate/alerts/notifications/slack.md): Set up the Slack integration to unfurl Cortex XCOR monitor graphs directly in your alerting channels.
 
 ### Configure alerts
 - [Setting monitor muting rules](https://docs-xcor.paloaltonetworks.com/investigate/alerts/muting-rules.md): Create and manage continuous or scheduled muting rules that silence monitor, SLO, or time series alerts.
-- [Manage service level objectives](https://docs-xcor.paloaltonetworks.com/investigate/alerts/manage-slos.md): Learn about creating, editing, and deleting service level objectives (SLOs) in Palo Alto Networks Cortex XCOR.
-- [Troubleshoot monitors and alerts](https://docs-xcor.paloaltonetworks.com/investigate/alerts/troubleshooting.md): Learn about troubleshooting monitors and alerts in Palo Alto Networks Cortex XCOR.
+- [Manage service level objectives](https://docs-xcor.paloaltonetworks.com/investigate/alerts/manage-slos.md): Learn about creating, editing, and deleting service level objectives (SLOs) in Cortex XCOR.
+- [Troubleshoot monitors and alerts](https://docs-xcor.paloaltonetworks.com/investigate/alerts/troubleshooting.md): Learn about troubleshooting monitors and alerts in Cortex XCOR.
 
 ### AI investigations
 - [Investigate alerts with AI investigations](https://docs-xcor.paloaltonetworks.com/investigate/investigations.md): Learn how AI investigations correlate telemetry, test hypotheses, and produce an evidence-backed report for an alert or dashboard panel.
@@ -237,12 +237,12 @@
 - [Metrics Catalog](https://docs-xcor.paloaltonetworks.com/investigate/system-library/metrics-catalog.md): Learn how to see all the metrics in Cortex XCOR
 
 ### Optimize
-- [Optimize your telemetry data](https://docs-xcor.paloaltonetworks.com/control.md): Learn about how to optimize your telemetry data with Palo Alto Networks Cortex XCOR.
+- [Optimize your telemetry data](https://docs-xcor.paloaltonetworks.com/control.md): Learn about how to optimize your telemetry data with Cortex XCOR.
 - [Data optimization concepts](https://docs-xcor.paloaltonetworks.com/control/storage.md): Learn about data optimization concepts in Cortex XCOR and how you can use them to control your data.
 
 ### Consumption
-- [Manage consumption](https://docs-xcor.paloaltonetworks.com/control/consumption.md): Learn how to create partitions and budgets for your telemetry data in Palo Alto Networks Cortex XCOR and control the data you keep.
-- [Partitions](https://docs-xcor.paloaltonetworks.com/control/consumption/partitions.md): Use partitions in Palo Alto Networks Cortex XCOR to create slices of your data with meaningful dimensions and distinct owners.
+- [Manage consumption](https://docs-xcor.paloaltonetworks.com/control/consumption.md): Learn how to create partitions and budgets for your telemetry data in Cortex XCOR and control the data you keep.
+- [Partitions](https://docs-xcor.paloaltonetworks.com/control/consumption/partitions.md): Use partitions in Cortex XCOR to create slices of your data with meaningful dimensions and distinct owners.
 - [Analyze consumption](https://docs-xcor.paloaltonetworks.com/control/consumption/analyze.md): Analyze telemetry consumption across products, resources, and partitions to identify growth and unexpected spikes.
 - [Telemetry data budgets](https://docs-xcor.paloaltonetworks.com/control/consumption/budgeting.md): Learn how to create and manage budgets and apply them to your data partitions.
 
@@ -254,7 +254,7 @@
 - [Metric types](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/types.md): Learn how counters, gauges, histograms, and other metric types affect aggregation, long-term downsampling, and query results.
 
 ### Shaping rules
-- [Metric shaping rules](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/rules.md): Learn about the ways to use rules in Palo Alto Networks Cortex XCOR to shape metric data.
+- [Metric shaping rules](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/rules.md): Learn about the ways to use rules in Cortex XCOR to shape metric data.
 - [Rollup rules](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/rules/rollup.md): What are rollup rules, and how to create, edit, or delete them.
 - [Recording rules](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/rules/recording.md): Learn about recording rules and when to use them, along with their limitations.
 - [Mapping rules](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/rules/mapping.md): Learn about how and when to use mapping rules before storing any results in the database.
@@ -262,7 +262,7 @@
 - [Find and fix rule and monitor evaluation failures](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/rules/evaluation-failures.md): View and fix recording rule and monitor evaluation failures.
 
 ### Reduce cardinality
-- [Reduce cardinality](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/reduce-cardinality.md): Learn how to use the tools provided by Palo Alto Networks Cortex XCOR to identify and reduce metric cardinality.
+- [Reduce cardinality](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/reduce-cardinality.md): Learn how to use the tools provided by Cortex XCOR to identify and reduce metric cardinality.
 - [Review aggregation rules](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/reduce-cardinality/aggregation-rules.md): Use the Aggregation Rules page to review your aggregation rules.
 - [Preview aggregation rule impact](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/reduce-cardinality/shaping-impact.md): Use the Shaping Impact Preview to preview the impact of aggregation rules on your system before applying them.
 - [Apply rule recommendations](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/reduce-cardinality/recommendations.md): Use the Recommendations page to identify and reduce metrics and labels with no usage or utility over the past 30 days.
@@ -271,39 +271,39 @@
 - [Understand metric quotas and pools](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/quotas.md): Learn about metric quotas and pools, and how to give each pool a specific quota of your total persisted writes license.
 - [Define a metric pool](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/quotas/define-pools.md): Learn about metric pool concepts and how to apply them to help shape defining a metric pool.
 - [View allocated pools](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/quotas/quotas-ui.md): View the persisted writes quota allocated to and consumed by each metrics pool to find pools at risk of being limited.
-- [Manage metric pools](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/quotas/manage-pools.md): Add, edit, and preview metric pool quota allocations on the Metrics Quotas page in Palo Alto Networks Cortex XCOR.
+- [Manage metric pools](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/quotas/manage-pools.md): Add, edit, and preview metric pool quota allocations on the Metrics Quotas page in Cortex XCOR.
 
 ### Shape metrics
 - [Long-term downsampling](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-metrics/downsampling.md): Learn how long-term downsampling compacts persisted metrics and its effect on each metric type.
 
 ### Sample traces
-- [Sample your traces](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces.md): Use sampling in Palo Alto Networks Cortex XCOR to help control costs and maximize the usefulness of your tracing data.
-- [Trace datasets](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces/datasets.md): Use datasets in Palo Alto Networks Cortex XCOR to map sets of traces to named groups relevant to your organization.
-- [Use trace behaviors with datasets](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces/behaviors.md): Use behaviors in Palo Alto Networks Cortex XCOR to set sampling rules for your trace datasets without writing fine-grained sampling rules.
+- [Sample your traces](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces.md): Use sampling in Cortex XCOR to help control costs and maximize the usefulness of your tracing data.
+- [Trace datasets](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces/datasets.md): Use datasets in Cortex XCOR to map sets of traces to named groups relevant to your organization.
+- [Use trace behaviors with datasets](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces/behaviors.md): Use behaviors in Cortex XCOR to set sampling rules for your trace datasets without writing fine-grained sampling rules.
 - [Head sampling](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces/head-sampling.md): Learn how to configure head sampling to capture a portion of your traces from originating services.
 - [Tail sampling](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces/tail-sampling.md): Learn about how to configure tail sampling to configure filters on trace data before it's stored.
 - [Trace Metrics](https://docs-xcor.paloaltonetworks.com/control/shaping/sample-traces/trace-metrics.md): Learn about how to create and use trace metrics to help address issues.
 
 ### Shape logs
-- [Shape your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs.md): Learn how to use different tools in Palo Alto Networks Cortex XCOR to shape your log data and help control costs.
-- [Parse your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/parse-logs.md): Learn how to use parsers in Palo Alto Networks Cortex XCOR to shape your log data at ingest time.
-- [Normalize your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/normalize-logs.md): Learn how to use field mapping in Palo Alto Networks Cortex XCOR to normalize your log data at ingest time.
+- [Shape your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs.md): Learn how to use different tools in Cortex XCOR to shape your log data and help control costs.
+- [Parse your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/parse-logs.md): Learn how to use parsers in Cortex XCOR to shape your log data at ingest time.
+- [Normalize your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/normalize-logs.md): Learn how to use field mapping in Cortex XCOR to normalize your log data at ingest time.
 - [Optimize your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/control-logs.md): Use log optimization rules to define actions for a subset of your log data that match specific criteria.
-- [Create lookup tables for log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/lookup-logs.md): Learn how to create and modify lookup tables for log data in Palo Alto Networks Cortex XCOR.
+- [Create lookup tables for log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/lookup-logs.md): Learn how to create and modify lookup tables for log data in Cortex XCOR.
 
 ### Shape and sample
 - [Review shaping rules impact](https://docs-xcor.paloaltonetworks.com/control/shaping/review-impact.md): Learn how to review the impact of your shaping rules to better apply controls to your telemetry data.
 
 ### Administer
-- [Administer your tools and users](https://docs-xcor.paloaltonetworks.com/administer.md): Palo Alto Networks Cortex XCOR offers tools and guidance for managing users, teams, collections, and your infrastructure-as-code settings.
+- [Administer your tools and users](https://docs-xcor.paloaltonetworks.com/administer.md): Cortex XCOR offers tools and guidance for managing users, teams, collections, and your infrastructure-as-code settings.
 
 ### Accounts and teams
-- [Accounts and teams](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams.md): Palo Alto Networks Cortex XCOR lets you manage user accounts, roles, and team permissions for streamlined access and collaboration.
-- [User accounts](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/user-accounts.md): Palo Alto Networks Cortex XCOR lets you manage user access by handling account creation, modification, and role assignments.
+- [Accounts and teams](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams.md): Cortex XCOR lets you manage user accounts, roles, and team permissions for streamlined access and collaboration.
+- [User accounts](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/user-accounts.md): Cortex XCOR lets you manage user access by handling account creation, modification, and role assignments.
 - [Personal access tokens](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/personal-access-tokens.md): Use personal access tokens to securely access the Cortex XCOR API, Chronoctl, and Terraform.
 - [Service accounts](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/service-accounts.md): An explanation of Cortex XCOR service accounts and usage.
-- [Teams](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/teams.md): Palo Alto Networks Cortex XCOR lets you create and manage teams, assign roles, and set permissions for effective collaboration.
-- [Okta user synchronization](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/okta.md): Configure user synchronization between Okta and Palo Alto Networks Cortex XCOR.
+- [Teams](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/teams.md): Cortex XCOR lets you create and manage teams, assign roles, and set permissions for effective collaboration.
+- [Okta user synchronization](https://docs-xcor.paloaltonetworks.com/administer/accounts-teams/okta.md): Configure user synchronization between Okta and Cortex XCOR.
 
 ### Collections
 - [Collections](https://docs-xcor.paloaltonetworks.com/administer/collections.md): Learn how collections group dashboards, monitors, and other resources so a team can manage a service at scale.
@@ -311,43 +311,43 @@
 
 ### Administer
 - [Audit logs](https://docs-xcor.paloaltonetworks.com/administer/audit-logs.md): View recent system and user actions in the Audit Log, including event details and the accounts and apps that generated them.
-- [Design service level objectives](https://docs-xcor.paloaltonetworks.com/administer/design-slos.md): Learn about fundamental concepts and best practices when designing service level objectives (SLOs) in Palo Alto Networks Cortex XCOR.
+- [Design service level objectives](https://docs-xcor.paloaltonetworks.com/administer/design-slos.md): Learn about fundamental concepts and best practices when designing service level objectives (SLOs) in Cortex XCOR.
 - [Configure Command Center groups](https://docs-xcor.paloaltonetworks.com/administer/command-center-groups.md): Create and manage the Command Center groups that define the business units shown in the Command Center.
 
 ### Licensing and limits
 - [Licensing and system limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing.md): Learn about licensing and system limits and how they differ.
 
 ### Concepts
-- [Licensing concepts](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/concepts.md): Learn about telemetry data licensing concepts and usage in Palo Alto Networks Cortex XCOR.
-- [Consumption licensing concepts](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/concepts/consumption-licensing.md): Learn about licensing concepts in Palo Alto Networks Cortex XCOR in a consumption model.
-- [Capacity licensing concepts](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/concepts/capacity-licensing.md): Learn about metrics licensing concepts and usage in Palo Alto Networks Cortex XCOR in a capacity licensing model.
+- [Licensing concepts](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/concepts.md): Learn about telemetry data licensing concepts and usage in Cortex XCOR.
+- [Consumption licensing concepts](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/concepts/consumption-licensing.md): Learn about licensing concepts in Cortex XCOR in a consumption model.
+- [Capacity licensing concepts](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/concepts/capacity-licensing.md): Learn about metrics licensing concepts and usage in Cortex XCOR in a capacity licensing model.
 
 ### Licensing and limits
-- [License unit definitions](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/definitions.md): Learn about licensing unit concepts in Palo Alto Networks Cortex XCOR.
-- [Cortex XCOR licensing](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/licensing.md): Learn about licensing concepts and retention periods in Palo Alto Networks Cortex XCOR.
+- [License unit definitions](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/definitions.md): Learn about licensing unit concepts in Cortex XCOR.
+- [Cortex XCOR licensing](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/licensing.md): Learn about licensing concepts and retention periods in Cortex XCOR.
 
 ### Limits
-- [Cortex XCOR system limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits.md): Learn about system limits in Palo Alto Networks Cortex XCOR.
+- [Cortex XCOR system limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits.md): Learn about system limits in Cortex XCOR.
 - [Change event limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/event-limits.md): Reference the ingest rate, request size, and field limits that apply when creating change events with the CreateEvent API.
-- [Log limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/log-limits.md): Reference the license, log size, and label length limits that apply to log data in Palo Alto Networks Cortex XCOR.
-- [Metric limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/metric-limits.md): Learn about the limits on metrics data within Palo Alto Networks Cortex XCOR.
+- [Log limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/log-limits.md): Reference the license, log size, and label length limits that apply to log data in Cortex XCOR.
+- [Metric limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/metric-limits.md): Learn about the limits on metrics data within Cortex XCOR.
 - [Query limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/query-limits.md): Learn about query limits in Cortex XCOR, what happens when you hit limits, and how to avoid hitting limits.
-- [Tracing ingest limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/trace-limits.md): Reference the tag, span, and trace ingest limits for tracing data in Palo Alto Networks Cortex XCOR.
+- [Tracing ingest limits](https://docs-xcor.paloaltonetworks.com/administer/limits-licensing/limits/trace-limits.md): Reference the tag, span, and trace ingest limits for tracing data in Cortex XCOR.
 
 ### Administer
-- [Manage service configuration](https://docs-xcor.paloaltonetworks.com/administer/service-discovery.md): Discover and configure services in Palo Alto Networks Cortex XCOR.
+- [Manage service configuration](https://docs-xcor.paloaltonetworks.com/administer/service-discovery.md): Discover and configure services in Cortex XCOR.
 
 ### Integrate
-- [Integrate with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/integrate.md): Learn how to integrate third-party tools and services with Palo Alto Networks Cortex XCOR.
-- [Navigate the Integrations Hub](https://docs-xcor.paloaltonetworks.com/integrate/integrations-hub.md): Learn how to browse, configure, and monitor integrations from the Integrations Hub in Palo Alto Networks Cortex XCOR.
+- [Integrate with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/integrate.md): Learn how to integrate third-party tools and services with Cortex XCOR.
+- [Navigate the Integrations Hub](https://docs-xcor.paloaltonetworks.com/integrate/integrations-hub.md): Learn how to browse, configure, and monitor integrations from the Integrations Hub in Cortex XCOR.
 
 ### MCP server
 - [Cortex XCOR MCP server](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server.md): Learn how to connect large language models to the Cortex XCOR MCP server.
-- [Authenticate with the Cortex XCOR MCP server](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server/authenticate.md): Learn how to authenticate with the Cortex XCOR MCP server so you can interact with resources in Palo Alto Networks Cortex XCOR.
+- [Authenticate with the Cortex XCOR MCP server](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server/authenticate.md): Learn how to authenticate with the Cortex XCOR MCP server so you can interact with resources in Cortex XCOR.
 - [Cortex XCOR MCP server tools](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server/resources.md): Learn about the tools that you can interact with using the Cortex XCOR MCP server.
 
 ### Ingest
-- [Ingest telemetry data](https://docs-xcor.paloaltonetworks.com/ingest.md): Use control mechanisms to manage the telemetry data you ingest into Palo Alto Networks Cortex XCOR.
+- [Ingest telemetry data](https://docs-xcor.paloaltonetworks.com/ingest.md): Use control mechanisms to manage the telemetry data you ingest into Cortex XCOR.
 
 ### CXDOT Collector
 - [CXDOT Collector](https://docs-xcor.paloaltonetworks.com/ingest/xcor/collector.md): Use the CXDOT Collector to send telemetry data to Cortex XCOR.
@@ -376,7 +376,7 @@
 - [XCOR Integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations.md): Ingest telemetry data from cloud providers and the CXDOT Collector into Cortex XCOR.
 
 ### Server integrations
-- [Server integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server.md): Ingest metrics directly from cloud providers into Palo Alto Networks Cortex XCOR.
+- [Server integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server.md): Ingest metrics directly from cloud providers into Cortex XCOR.
 
 ### AWS
 - [Amazon Web Services](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/aws.md): Send AWS metrics and logs to Cortex XCOR.
@@ -385,7 +385,7 @@
 
 ### Azure
 - [Microsoft Azure](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure.md): Learn how to ingest Azure metrics into Cortex XCOR.
-- [Azure metrics available in Palo Alto Networks Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure/azure-metrics.md): Reference the Azure metrics that Palo Alto Networks Cortex XCOR ingests.
+- [Azure metrics available in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/azure/azure-metrics.md): Reference the Azure metrics that Cortex XCOR ingests.
 
 ### Server integrations
 - [BlazeMeter API Monitoring](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/blazemeterapimonitoring.md): BlazeMeter API Monitoring (formerly Runscope) test results for each run and request step, including pass or fail status, assertions, response times, and status codes. Uses the same metric names as the Runscope Datadog integration.
@@ -397,7 +397,7 @@
 - [Ingest Google Cloud logs](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/server/gcp/logs.md): Learn how to send Google Cloud logs to Cortex XCOR with a Dataflow job.
 
 ### CXDOT Collector integrations
-- [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Palo Alto Networks Cortex XCOR.
+- [CXDOT Collector integrations](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector.md): Use CXDOT Collector integrations to send telemetry data to Cortex XCOR.
 - [Apache](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/apache.md): Apache HTTP Server connection, request, traffic, and worker metrics.
 - [Apache Cassandra](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/cassandra.md): Apache Cassandra node, table, and Java Virtual Machine runtime metrics collected over JMX.
 - [Apache HBase](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/hbase.md): Apache HBase master and RegionServer metrics collected over JMX, including requests and latency, regions and store files, the block cache, flushes and compactions, the write-ahead log, and the Java Virtual Machine runtime.
@@ -447,7 +447,7 @@
 - [ZooKeeper](https://docs-xcor.paloaltonetworks.com/ingest/xcor/integrations/collector/zookeeper.md): ZooKeeper connection, request, latency, and data tree metrics.
 
 ### Ingest
-- [OpenTelemetry support in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/otel-ingestion.md): Learn how Palo Alto Networks Cortex XCOR supports OpenTelemetry ingestion for telemetry data.
+- [OpenTelemetry support in Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/otel-ingestion.md): Learn how Cortex XCOR supports OpenTelemetry ingestion for telemetry data.
 
 ### Palo Alto Networks Telemetry Pipeline
 - [Palo Alto Networks Telemetry Pipeline](https://docs-xcor.paloaltonetworks.com/ingest/pipeline.md): Learn about Palo Alto Networks Telemetry Pipeline and when to use it to ingest data into Cortex XCOR.
@@ -671,13 +671,13 @@
 - [Authenticate in Pipeline CLI](https://docs-xcor.paloaltonetworks.com/ingest/pipeline/pipeline-cli/authenticate.md): Learn how to authenticate with Palo Alto Networks Telemetry Pipeline through Pipeline CLI.
 
 ### Metrics and traces
-- [Ingest metric and trace data](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces.md): Learn about the collection methods used to ingest metrics and traces into Palo Alto Networks Cortex XCOR.
+- [Ingest metric and trace data](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces.md): Learn about the collection methods used to ingest metrics and traces into Cortex XCOR.
 
 ### OpenTelemetry Collector
 - [Ingest metrics and traces using the OpenTelemetry Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel.md): Use the OpenTelemetry Collector to collect metrics and traces and transfer them to Cortex XCOR for analysis.
 - [Configure your OpenTelemetry Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel/otel-ingest.md): Learn about configuring the OpenTelemetry Collector for metric and tracing data.
-- [Configure ingestion and processing of OpenTelemetry Metrics](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel/otel-config.md): Learn how to configure Palo Alto Networks Cortex XCOR ingestion and processing of OpenTelemetry Metrics data
-- [Use OpenTelemetry protocol endpoints](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel/otlp-endpoints.md): Learn how to configure and use Palo Alto Networks Cortex XCOR endpoints for OpenTelemetry protocol ingestion of metrics and traces.
+- [Configure ingestion and processing of OpenTelemetry Metrics](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel/otel-config.md): Learn how to configure Cortex XCOR ingestion and processing of OpenTelemetry Metrics data
+- [Use OpenTelemetry protocol endpoints](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel/otlp-endpoints.md): Learn how to configure and use Cortex XCOR endpoints for OpenTelemetry protocol ingestion of metrics and traces.
 - [Ingest DogStatsD metrics with the OpenTelemetry Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel/ingest-dogstatsd.md): How to use the OpenTelemetry Collector to ingest DogStatsD metrics.
 
 ### Chronosphere Collector
@@ -707,29 +707,29 @@
 - [Monitor the Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/monitor/monitor-collector.md): Create monitors on kube-state-metrics to track Chronosphere Collector health and troubleshoot metric ingestion failures.
 
 ### Mappings
-- [Map data sources to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings.md): Map metrics data and query functions from Prometheus, Datadog, SignalFx, and Wavefront to Palo Alto Networks Cortex XCOR.
+- [Map data sources to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings.md): Map metrics data and query functions from Prometheus, Datadog, SignalFx, and Wavefront to Cortex XCOR.
 
 ### Datadog
-- [Datadog migration information](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog.md): Learn how Palo Alto Networks Cortex XCOR ingests metrics, and plan a migration from Datadog Agent and DogStatsD.
-- [Querying DogStatsD formatted metrics](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/dogstatsd.md): Translate Datadog query syntax into PromQL to query DogStatsD-formatted metrics in Palo Alto Networks Cortex XCOR.
-- [Datadog migration considerations](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/migration-issues.md): Review questions about metrics, dashboards, and alerts to plan a migration from Datadog to Palo Alto Networks Cortex XCOR.
-- [Convert Datadog monitors](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/convert-monitors.md): Convert a Datadog monitor into the equivalent monitor, notification policy, and notifier resources in Palo Alto Networks Cortex XCOR.
-- [Dashboard widgets](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/dashboards.md): Map common Datadog dashboard widgets to Palo Alto Networks Cortex XCOR standard dashboard panels.
+- [Datadog migration information](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog.md): Learn how Cortex XCOR ingests metrics, and plan a migration from Datadog Agent and DogStatsD.
+- [Querying DogStatsD formatted metrics](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/dogstatsd.md): Translate Datadog query syntax into PromQL to query DogStatsD-formatted metrics in Cortex XCOR.
+- [Datadog migration considerations](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/migration-issues.md): Review questions about metrics, dashboards, and alerts to plan a migration from Datadog to Cortex XCOR.
+- [Convert Datadog monitors](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/convert-monitors.md): Convert a Datadog monitor into the equivalent monitor, notification policy, and notifier resources in Cortex XCOR.
+- [Dashboard widgets](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/datadog/dashboards.md): Map common Datadog dashboard widgets to Cortex XCOR standard dashboard panels.
 
 ### Prometheus
 - [Prometheus metric naming recommendations](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/prometheus/prometheus-recommendations.md): Follow Prometheus conventions for metric names and labels to keep telemetry consistent across teams in your organization.
 - [Differences between the Prometheus Operator and Chronosphere Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/prometheus/operator-collector.md): Compare the Prometheus Operator and Chronosphere Collector for deployment, alerting, service discovery, and long-term storage.
 
 ### Mappings
-- [Migration notes for SignalFx (Splunk) to PromQL](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/signalfx.md): Learn how to translate SignalFx queries to PromQL for Palo Alto Networks Cortex XCOR.
-- [Migration notes for Tanzu (Wavefront) to PromQL](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/wavefront.md): Learn how to translate Tanzu Observability queries to PromQL for Palo Alto Networks Cortex XCOR.
+- [Migration notes for SignalFx (Splunk) to PromQL](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/signalfx.md): Learn how to translate SignalFx queries to PromQL for Cortex XCOR.
+- [Migration notes for Tanzu (Wavefront) to PromQL](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/mappings/wavefront.md): Learn how to translate Tanzu Observability queries to PromQL for Cortex XCOR.
 
 ### Additional metrics
 - [Ingest additional metrics](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics.md): Ingest Carbon, StatsD, SignalFx, Wavefront, and other metric formats with the Chronosphere Collector, and enable client-side aggregations.
 - [Wavefront](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/wavefront.md): Configure the Chronosphere Collector to accept metric payloads in Wavefront data format, including histogram distributions.
 - [SignalFx ingestion](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/signalfx.md): Configure the Chronosphere Collector to process SignalFx data points from apps instrumented with a SignalFx client library.
-- [DogStatsD ingestion](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/dogstatsd.md): Processes and configuration for ingesting DogStatsD metrics into Palo Alto Networks Cortex XCOR.
-- [Receive and aggregate metrics from StatsD](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/statsd.md): Processes and configuration for receiving StatsD metrics to Palo Alto Networks Cortex XCOR.
+- [DogStatsD ingestion](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/dogstatsd.md): Processes and configuration for ingesting DogStatsD metrics into Cortex XCOR.
+- [Receive and aggregate metrics from StatsD](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/statsd.md): Processes and configuration for receiving StatsD metrics to Cortex XCOR.
 - [Carbon ingestion](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/carbon.md): Configure the Chronosphere Collector to ingest Carbon metrics from Graphite clients as pre-aggregated gauge data.
 - [Pushgateway ingestion](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/prom-pushgateway.md): Learn how to configure and use the Prometheus Pushgateway to collect metrics.
 - [Prometheus and OpenMetrics ingestion](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/collector/addl-metrics/prom-openmetrics.md): Configure the Chronosphere Collector to accept text-exposition payloads in either Prometheus or OpenMetrics format.
@@ -742,42 +742,42 @@
 
 ### Change events
 - [Send third-party events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party.md): Learn how to send third-party events to Cortex XCOR to display as change events.
-- [Send Amazon EventBridge events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/aws-eventbridge.md): Send Amazon EventBridge events, including AWS Health events, to Palo Alto Networks Cortex XCOR.
-- [Send Buildkite events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/buildkite.md): Create a Buildkite webhook that sends build and pipeline events to Palo Alto Networks Cortex XCOR.
-- [Send CircleCI events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/circleci.md): Create a CircleCI webhook that sends pipeline and workflow events to Palo Alto Networks Cortex XCOR.
-- [Send GitHub events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/github.md): Create a webhook to send your GitHub events to Palo Alto Networks Cortex XCOR as change events.
-- [Send GitLab events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/gitlab.md): Create a GitLab webhook that sends project and pipeline events to Palo Alto Networks Cortex XCOR.
-- [Send Google Cloud Personalized Service Health events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/google-cloud.md): Create a webhook to send Google Cloud Personalized Service Health events to Palo Alto Networks Cortex XCOR.
-- [Send Harness events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/harness.md): Create a Harness webhook that sends pipeline and deployment events to Palo Alto Networks Cortex XCOR.
-- [Send LaunchDarkly events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/launchdarkly.md): Configure the Cortex XCOR integration in LaunchDarkly to send feature flag events to Palo Alto Networks Cortex XCOR.
-- [Send Statsig events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/statsig.md): Create a webhook to send your Statsig feature flag events to Palo Alto Networks Cortex XCOR as change events.
+- [Send Amazon EventBridge events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/aws-eventbridge.md): Send Amazon EventBridge events, including AWS Health events, to Cortex XCOR.
+- [Send Buildkite events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/buildkite.md): Create a Buildkite webhook that sends build and pipeline events to Cortex XCOR.
+- [Send CircleCI events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/circleci.md): Create a CircleCI webhook that sends pipeline and workflow events to Cortex XCOR.
+- [Send GitHub events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/github.md): Create a webhook to send your GitHub events to Cortex XCOR as change events.
+- [Send GitLab events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/gitlab.md): Create a GitLab webhook that sends project and pipeline events to Cortex XCOR.
+- [Send Google Cloud Personalized Service Health events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/google-cloud.md): Create a webhook to send Google Cloud Personalized Service Health events to Cortex XCOR.
+- [Send Harness events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/harness.md): Create a Harness webhook that sends pipeline and deployment events to Cortex XCOR.
+- [Send LaunchDarkly events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/launchdarkly.md): Configure the Cortex XCOR integration in LaunchDarkly to send feature flag events to Cortex XCOR.
+- [Send Statsig events to Cortex XCOR](https://docs-xcor.paloaltonetworks.com/ingest/third-party/statsig.md): Create a webhook to send your Statsig feature flag events to Cortex XCOR as change events.
 
 ### Logs
 - [Ingest log data](https://docs-xcor.paloaltonetworks.com/ingest/logs.md): Learn about how to ingest log data into Cortex XCOR.
-- [Route logs from Fluent Bit](https://docs-xcor.paloaltonetworks.com/ingest/logs/fluentbit-logs.md): Learn how to route logs from Fluent Bit to Palo Alto Networks Cortex XCOR.
-- [Route logs from Google Cloud Platform](https://docs-xcor.paloaltonetworks.com/ingest/logs/gcp-logs.md): Learn how to route logs from Google Cloud Platform into Palo Alto Networks Cortex XCOR.
+- [Route logs from Fluent Bit](https://docs-xcor.paloaltonetworks.com/ingest/logs/fluentbit-logs.md): Learn how to route logs from Fluent Bit to Cortex XCOR.
+- [Route logs from Google Cloud Platform](https://docs-xcor.paloaltonetworks.com/ingest/logs/gcp-logs.md): Learn how to route logs from Google Cloud Platform into Cortex XCOR.
 - [Route logs over HTTP](https://docs-xcor.paloaltonetworks.com/ingest/logs/http-logs.md): Use the Cortex XCOR logging HTTP endpoint to send logs to your Cortex XCOR tenant over HTTP.
-- [Route logs from Logstash](https://docs-xcor.paloaltonetworks.com/ingest/logs/logstash-logs.md): Learn how to route logs from Logstash to Palo Alto Networks Cortex XCOR.
-- [Use OpenTelemetry protocol endpoints](https://docs-xcor.paloaltonetworks.com/ingest/logs/otel-logs.md): Learn how to configure and use Palo Alto Networks Cortex XCOR endpoints for OpenTelemetry protocol ingestion of log data.
-- [Route logs through Palo Alto Networks Telemetry Pipeline](https://docs-xcor.paloaltonetworks.com/ingest/logs/pipeline-logs.md): Learn how to route log data through Palo Alto Networks Telemetry Pipeline to Palo Alto Networks Cortex XCOR.
+- [Route logs from Logstash](https://docs-xcor.paloaltonetworks.com/ingest/logs/logstash-logs.md): Learn how to route logs from Logstash to Cortex XCOR.
+- [Use OpenTelemetry protocol endpoints](https://docs-xcor.paloaltonetworks.com/ingest/logs/otel-logs.md): Learn how to configure and use Cortex XCOR endpoints for OpenTelemetry protocol ingestion of log data.
+- [Route logs through Palo Alto Networks Telemetry Pipeline](https://docs-xcor.paloaltonetworks.com/ingest/logs/pipeline-logs.md): Learn how to route log data through Palo Alto Networks Telemetry Pipeline to Cortex XCOR.
 
 ### Tools
 - [Cortex XCOR tools](https://docs-xcor.paloaltonetworks.com/tooling.md): Learn about tools used with Cortex XCOR.
 
 ### Chronoctl
-- [Chronoctl](https://docs-xcor.paloaltonetworks.com/tooling/chronoctl.md): Use Chronoctl to manage your organization's Palo Alto Networks Cortex XCOR resources.
-- [Install Chronoctl](https://docs-xcor.paloaltonetworks.com/tooling/chronoctl/install.md): How to install the Chronoctl command line app to manage your Palo Alto Networks Cortex XCOR instances.
+- [Chronoctl](https://docs-xcor.paloaltonetworks.com/tooling/chronoctl.md): Use Chronoctl to manage your organization's Cortex XCOR resources.
+- [Install Chronoctl](https://docs-xcor.paloaltonetworks.com/tooling/chronoctl/install.md): How to install the Chronoctl command line app to manage your Cortex XCOR instances.
 
 ### Infrastructure as code
-- [Infrastructure-as-code tools](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure.md): Use the provided infrastructure-as-code tools for managing your Palo Alto Networks Cortex XCOR resources.
+- [Infrastructure-as-code tools](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure.md): Use the provided infrastructure-as-code tools for managing your Cortex XCOR resources.
 
 ### Terraform provider
-- [Cortex XCOR Terraform provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/terraform.md): Manage Palo Alto Networks Cortex XCOR resources as infrastructure as code with the Cortex XCOR Terraform provider.
+- [Cortex XCOR Terraform provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/terraform.md): Manage Cortex XCOR resources as infrastructure as code with the Cortex XCOR Terraform provider.
 - [Install the Cortex XCOR Terraform provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/terraform/install.md): Install the Cortex XCOR Terraform provider, authenticate to Cortex XCOR, and bootstrap your Terraform configuration.
 - [Terraform provider release notes](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/terraform/release-notes.md): Review features, fixes, and breaking changes in each released version of the Cortex XCOR Terraform provider.
 
 ### Infrastructure as code
-- [Cortex XCOR Pulumi provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/pulumi.md): Use the Cortex XCOR Pulumi provider to create and manage Palo Alto Networks Cortex XCOR resources.
+- [Cortex XCOR Pulumi provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/pulumi.md): Use the Cortex XCOR Pulumi provider to create and manage Cortex XCOR resources.
 
 ### Tools
 - [Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md): How to access and use Prometheus API endpoints for programmatic access to your observability data.

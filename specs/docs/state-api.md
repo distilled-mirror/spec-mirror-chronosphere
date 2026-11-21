@@ -7,7 +7,7 @@
 v1
 
 The State API provides HTTP/JSON REST endpoints for accessing the runtime state of
-the Palo Alto Networks Cortex XCOR system.
+the Cortex XCOR system.
 
 Use this link to download the raw Swagger specification:
 [Download](https://docs-xcor.paloaltonetworks.com/openapi/api_v1_state_swagger.json)
