@@ -31,8 +31,8 @@ Example:
 - [Telemetry data budgets](https://docs-xcor.paloaltonetworks.com/control/consumption/budgeting.md)
 - [Normalize your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/normalize-logs.md)
 - [Parse your log data](https://docs-xcor.paloaltonetworks.com/control/shaping/shape-logs/parse-logs.md)
-- [Visualize data using dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards.md)
 - [Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md)
+- [Visualize data using dashboards](https://docs-xcor.paloaltonetworks.com/observe/dashboards.md)
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

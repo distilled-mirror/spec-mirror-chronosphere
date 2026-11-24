@@ -191,8 +191,8 @@ This example demonstrates the process to iterate over every monitor:
 - [Prometheus API overview](https://docs-xcor.paloaltonetworks.com/tooling/prometheus-api.md)
 - [Get started with Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview/get-started.md)
 - [Cortex XCOR](https://docs-xcor.paloaltonetworks.com/overview.md)
+- [Ingest metrics and traces using the OpenTelemetry Collector](https://docs-xcor.paloaltonetworks.com/ingest/metrics-traces/otel.md)
 - [Cortex XCOR MCP server tools](https://docs-xcor.paloaltonetworks.com/integrate/mcp-server/resources.md)
-- [Cortex XCOR Pulumi provider](https://docs-xcor.paloaltonetworks.com/tooling/infrastructure/pulumi.md)
 
 
 This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
